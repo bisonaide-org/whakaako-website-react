@@ -1,22 +1,12 @@
-import Footer from "./components/Footer";
-import Navbar from "./components/Navbar";
-import About from "./pages/About";
-import LandingPage from "./pages/LandingPage";
-import TakeAction from "./pages/TakeAction";
-import WhatWeDo from "./pages/WhatWeDo";
+import React from 'react'
+import AppRouter from './router/AppRouter'
 
-
-function App() {
+const App = () => {
   return (
-    <div className="App">
-   <Navbar/>
-     <LandingPage />
-     <WhatWeDo />
-     <TakeAction />
-        <About />
-        <Footer /> 
-    </div>
-  );
+    <>
+     <AppRouter/> 
+    </>
+  )
 }
 
-export default App;
+export default App
