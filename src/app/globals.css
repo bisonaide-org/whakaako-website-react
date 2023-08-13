@@ -2,11 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-import backgroundImage from "../utils/photos/01_landingPage/photos/close-up-portrait-of-freelance-it-specialists-looking-at-laptop-screen-with-smile.jpg"
-
-html, body {
-    height: 100%;
-    background-image: url('');
-    background-size: cover;
-    background-repeat: no-repeat;
-}
