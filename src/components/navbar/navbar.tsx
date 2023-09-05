@@ -1,6 +1,6 @@
 import Link from "next/link";
 import "./navbar.css";
-import Whakaako_Stamp_On_White from "../../public/photos/Whakaako_Stamp_On_White.svg";
+import Whakaako_Stamp_On_White from "../../../public/photos/Whakaako_Stamp_On_White.svg";
 import Image from "next/image";
 
 function NavBar() {
