@@ -22,14 +22,6 @@ export default function RootLayout({
     >
       <body
         className={inter.className}
-        style={{
-          backgroundImage: `url(${backgroundImage.src})`,
-          backgroundRepeat: "no-repeat",
-          
-          backgroundSize: "cover",
-          backgroundAttachment: "fixed",
-          backgroundPosition: "center",
-        }}
       >
         
         <NavBar/>
