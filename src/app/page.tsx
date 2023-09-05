@@ -2,9 +2,12 @@ import Image from "next/image";
 import Whakaako_Stamp_On_White from "../../public/photos/Whakaako_Stamp_On_White.svg";
 import { BsFillPlayFill } from "react-icons/bs";
 import backgroundImage from  "../../public/photos/01_landingPage/photos/close-up-portrait-of-freelance-it-specialists-looking-at-laptop-screen-with-smile.jpg"
+import NavBar from "@/components/navbar";
 
 const Whakaako: React.FC = () => {
   return (
+    <>
+  
     <div 
     style={{
       backgroundImage: `url(${backgroundImage.src})`,
@@ -12,9 +15,12 @@ const Whakaako: React.FC = () => {
       backgroundSize: "cover",
       backgroundAttachment: "fixed",
       backgroundPosition: "center",
-      minHeight: '100vh'  // to make sure it covers the whole viewport height
+      minHeight: '100vh'  
     }}
+    className="flex flex-col h-screen" 
+
     >
+       <NavBar />
       <div className="flex justify-between flex-col items-start">
         <div className="grid grid-rows-5" >
         <div className="grid grid-cols-9 row-span-3  gap-6 h-[600px]  ">
@@ -55,6 +61,14 @@ const Whakaako: React.FC = () => {
       </div>
       </div>
     </div>
+
+    <div className="flex justify-center items-center border border-green">
+      <div >
+        
+        
+         </div>
+    </div>
+    </>
   );
 };
 

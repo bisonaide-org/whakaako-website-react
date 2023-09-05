@@ -2,8 +2,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import NavBar from "@/components/navbar";
-import Footer from "@/app/footer/page";
-import backgroundImage from  "../../public/photos/01_landingPage/photos/close-up-portrait-of-freelance-it-specialists-looking-at-laptop-screen-with-smile.jpg"
+import Footer from "@/components/footer/page";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -13,20 +12,17 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
+  hideNavBar = false,
 }: {
   children: React.ReactNode;
+  hideNavBar?: boolean;
 }) {
   return (
-    <html
-      lang="en"
-    >
-      <body
-        className={inter.className}
-      >
-        
-        <NavBar/>
+    <html lang="en">
+      <body className={inter.className}>
+        {!hideNavBar && <NavBar />}
         <main>{children}</main>
-        <Footer/>
+        <Footer />
       </body>
     </html>
   );
