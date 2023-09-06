@@ -63,7 +63,7 @@ const whatWeDoAndWhy = () => {
           If you want to know about whakaako or bisonaide in general, we are
           always
         </p>
-        <p>here for you. We would love to hear from you.</p>
+        <p>here for you.  We would love to hear from you.</p>
         <div className="w-36 border border-b-8 border-gray-700 mt-4 rounded"></div>
       </div>
     </div>
