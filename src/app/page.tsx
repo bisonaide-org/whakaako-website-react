@@ -3,7 +3,7 @@ import Whakaako_Stamp_On_White from "../../public/photos/Whakaako_Stamp_On_White
 import { BsFillPlayFill } from "react-icons/bs";
 import backgroundImage from "../../public/photos/01_landingPage/photos/close-up-portrait-of-freelance-it-specialists-looking-at-laptop-screen-with-smile.jpg";
 import NavBar from "@/components/navbar/navbar";
-import WhatWeDo from "@/components/whatWeDo";
+import WhatWeDoAndWhy from "@/components/whatWeDoandWhy";
 import RootLayout from "./layout";
 
 const Whakaako: React.FC = () => {
@@ -62,7 +62,7 @@ const Whakaako: React.FC = () => {
       </div>
 
       <div className="flex justify-center items-center border border-green">
-        <WhatWeDo />
+        <WhatWeDoAndWhy />
       </div>
     </RootLayout>
   );

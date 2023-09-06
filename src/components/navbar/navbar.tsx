@@ -47,7 +47,7 @@ function NavBar() {
               <button className="text-white bg-pink-400 px-4 py-2 text-sm font-semibold rounded-lg hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline">
                 <span>support us</span>
               </button>
-              <button className="text-white px-4 py-2 text-sm font-semibold rounded-lg border border-green-500 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline">
+              <button className="text-white px-4 py-2 text-sm font-semibold rounded-lg border border-cyan hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline">
                 <span>volunteer</span>
               </button>
             </div>
