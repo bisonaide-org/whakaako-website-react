@@ -1,10 +1,12 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Maven_Pro, Mulish, Orbitron } from "next/font/google";
 import NavBar from "@/components/navbar";
 import Footer from "@/app/footer/page";
 
-const inter = Inter({ subsets: ["latin"] });
+const mavernPro = Maven_Pro({ subsets: ["latin"], variable: "--display-font" });
+const mulish = Mulish({ subsets: ["latin"] });
+const orbitron = Orbitron({ subsets: ["latin"], variable: "--logo-font" });
 
 export const metadata: Metadata = {
   title: "Whakaako",
@@ -18,7 +20,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body
+        className={`${mavernPro.variable} ${mulish.className} ${orbitron.variable}`}
+      >
         <NavBar></NavBar>
         <main>{children}</main>
         <Footer></Footer>
