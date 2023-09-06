@@ -14,10 +14,10 @@ const whatWeDoAndWhy = () => {
       {/* First div with 1/4 height */}
       <div className="flex-1/4 p-2 justify-between items-center ">
         <div className="flex flex-col justify-center items-center">
-          <p className="text-5xl mt-12 ">What we do and Why?</p>
+          <p className="text-5xl mt-2 ">What we do and Why?</p>
         </div>
 
-        <div className="flex flex-col justify-center items-center text-xl gap-4 mt-8">
+        <div className="flex flex-col justify-center items-center text-lg gap-1 mt-2">
           <p>Whakaako promotes equal opportunity.</p>
           <p>
             It offers free IT training and facilitates remote work
@@ -44,7 +44,7 @@ const whatWeDoAndWhy = () => {
                     alt={`Image ${index}`}
                     layout="responsive"
                     width={100}
-                    height={80}
+                    height={60}
                   />
                 </div>
               </div>
@@ -54,8 +54,8 @@ const whatWeDoAndWhy = () => {
       </div>
 
       {/* Third div with 1/4 height */}
-      <div className="flex-1/4 mt-12 flex justify-between items-center flex-col gap-4">
-        <p className="text-2xl" >We are here for you!</p>
+      <div className="flex-1/4 mt-2 flex justify-between items-center flex-col gap-2">
+        <p className="text-2xl">We are here for you!</p>
         <button className="text-black px-4 py-2 text-sm font-semibold rounded-lg border border-cyan hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline">
           <span>contact us</span>
         </button>
@@ -63,8 +63,8 @@ const whatWeDoAndWhy = () => {
           If you want to know about whakaako or bisonaide in general, we are
           always
         </p>
-        <p>here for you.  We would love to hear from you.</p>
-        <div className="w-36 border border-b-8 border-gray-700 mt-4 rounded"></div>
+        <p>here for you. We would love to hear from you.</p>
+        <div className="w-36 border border-b-8 border-gray-700 mt-3 rounded"></div>
       </div>
     </div>
   );
