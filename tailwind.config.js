@@ -11,15 +11,6 @@ module.exports = {
       display: "var(--display-font)",
       logo: "var(--logo-font)",
     },
-    fontSize: {
-      sm: ["0.9rem", "1.5rem"],
-      p: ["0.938rem", "1.5rem"],
-      quote: ["1rem", "1.5rem"],
-      display4: ["1.5rem", "1.3rem"],
-      display3: ["1.75rem", "1.3rem"],
-      display2: ["2rem", "1.3rem"],
-      display1: ["3rem", "1.3rem"],
-    },
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -34,6 +25,15 @@ module.exports = {
         gray: "#32353e",
         lightgray: "#9c9ca7",
         lightgraybackground: "#dde2ed",
+      },
+      fontSize: {
+        small: ["0.9rem", "1.5"],
+        p: ["0.938rem", "1.5"],
+        quote: ["1rem", "1.5"],
+        display4: ["1.5rem", "1.3"],
+        display3: ["1.75rem", "1.3"],
+        display2: ["2rem", "1.3"],
+        display1: ["3rem", "1.3"],
       },
     },
   },
