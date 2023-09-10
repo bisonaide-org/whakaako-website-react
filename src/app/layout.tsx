@@ -1,9 +1,13 @@
 import "./globals.css";
 import type {Metadata} from "next";
-import {Inter} from "next/font/google";
+import {Inter, Maven_Pro, Mulish, Orbitron} from "next/font/google";
 import NavBar from "@/components/navbar/navbar";
 import Footer from "@/components/footer/page";
 import backgroundImage from "../../public/photos/01_landingPage/photos/close-up-portrait-of-freelance-it-specialists-looking-at-laptop-screen-with-smile.jpg";
+
+const mavernPro = Maven_Pro({subsets: ["latin"], variable: "--display-font"});
+const mulish = Mulish({subsets: ["latin"]});
+const orbitron = Orbitron({subsets: ["latin"], variable: "--logo-font"});
 
 const inter = Inter({subsets: ["latin"]});
 
@@ -18,7 +22,7 @@ export default function RootLayout({
     children: React.ReactNode
 }) {
     return (
-        <html lang="en"
+        <html lang="en" className={`${mavernPro.variable} ${mulish.className} ${orbitron.variable}`}
               style={{
                   backgroundImage: `url(${backgroundImage.src})`,
                   backgroundRepeat: "no-repeat",
@@ -26,8 +30,7 @@ export default function RootLayout({
                   backgroundAttachment: "fixed",
                   backgroundPosition: "center",
                   minHeight: "100vh",
-              }}
-              className="flex flex-col h-screen bg-opacity-80 relative">
+              }}>
         <body className={inter.className}>
         <NavBar/>
         <main>{children}</main>
