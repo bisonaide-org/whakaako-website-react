@@ -11,29 +11,11 @@ module.exports = {
       display: "var(--display-font)",
       logo: "var(--logo-font)",
     },
-    fontSize: {
-      sm: ["0.9rem", "1.5rem"],
-      p: ["0.938rem", "1.5rem"],
-      quote: ["1rem", "1.5rem"],
-      display4: ["1.5rem", "1.3rem"],
-      display3: ["1.75rem", "1.3rem"],
-      display2: ["2rem", "1.3rem"],
-      display1: ["3rem", "1.3rem"],
-    },
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
-      colors: {
-        darkblue: "#2d3d57",
-        cyan: "#00ffe8",
-        magenta: "#dd4cdf",
-        yellowgreen: "#d0ff38",
-        gray: "#32353e",
-        lightgray: "#9c9ca7",
-        lightgraybackground: "#dde2ed",
       },
       colors:{
         darkBlue:'#2D3D57',
@@ -42,7 +24,16 @@ module.exports = {
         yellowGreen:'#D0ff38',
         grayBodtText:'#32353E',
         lightGrayBodyText:'#9C9CA7'
-      }
+      },
+      fontSize: {
+        small: ["0.9rem", "1.5"],
+        p: ["0.938rem", "1.5"],
+        quote: ["1rem", "1.5"],
+        display4: ["1.5rem", "1.3"],
+        display3: ["1.75rem", "1.3"],
+        display2: ["2rem", "1.3"],
+        display1: ["3rem", "1.3"],
+      },
     },
   },
   plugins: [],
