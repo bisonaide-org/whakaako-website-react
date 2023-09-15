@@ -1,10 +1,13 @@
 import Image from "next/image";
 import whiteLogo from "../../../public/photos/white_Logo.svg";
+import playIcon from "../../../public/play.svg";
 
 interface Props {
   backgroundImage: string;
   heading: string;
   text: string;
+  playTitle?: string;
+  playText?: string;
 }
 
 const Header = (props: Props) => {
@@ -29,7 +32,23 @@ const Header = (props: Props) => {
             <h1 className=" font-display text-yellowGreen text-7xl py-2 mb-6">
               {props.heading}
             </h1>
-            <p className=" text-quote w-1/2">{props.text}</p>
+            <p className=" text-quote w-1/2 mb-20">{props.text}</p>
+            {props.playTitle && (
+              <div className="flex  justify-start items-center gap-6">
+                <div>
+                  <Image
+                    src={playIcon.src}
+                    width={49.47}
+                    height={49.47}
+                    alt="play icon"
+                  />
+                </div>
+                <div>
+                  <span className="font-bold">{props.playTitle}</span>
+                  <span className="font-normal">{props.playText}</span>
+                </div>
+              </div>
+            )}
           </div>
         </div>
       </div>
