@@ -7,7 +7,7 @@ function NavBar() {
   return (
     <div className="absolute top-0 left-0 z-20 h-16 min-w-full">
       <div className="w-full text-white mt-6 ">
-        <div className="flex flex-col max-w-screen-xl px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">
+        <div className="flex flex-col max-w-5xl mx-auto md:items-center md:justify-between md:flex-row pl-14">
           <nav className="flex justify-between w-full">
             <div className="flex items-center space-x-4">
               <Link
