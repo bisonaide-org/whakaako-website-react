@@ -1,7 +1,7 @@
 import Header from "@/components/header/header";
 import React from "react";
 import backgroundImage from "../../../public/photos/02_WhatWeDo/IMG_20230421_121051.jpg";
-import Quote from "@/components/quote";
+import Quote from "@/components/whatwedopage/quote";
 import CourseFinder from "@/components/whatwedopage/courseFinder";
 
 const WhatWeDo = () => {

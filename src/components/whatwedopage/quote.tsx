@@ -1,5 +1,5 @@
 import Image from "next/image";
-import quoteImage from "../../public/photos/Quote.svg";
+import quoteImage from "../../../public/photos/Quote.svg";
 
 const Quote = () => {
   return (
