@@ -8,9 +8,9 @@ const imagePaths = [
   "/photos/01_landingPage/photos/4.jpeg",
 ];
 
-const whatWeDoAndWhy = () => {
+const WhatWeDoAndWhy = () => {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col justify-center items-center ">
       {/* First div with 1/4 height */}
       <div className="flex-1/4 p-2 justify-between items-center ">
         <div className="flex flex-col justify-center items-center">
@@ -32,12 +32,12 @@ const whatWeDoAndWhy = () => {
       </div>
 
       {/* Second div with 2/4 (1/2) height */}
-      <div className="flex-1/2 ">
+      <div className="flex-1/2 justify-end">
         <div className="grid grid-cols-2 grid-rows-2 gap-4">
           {imagePaths.map((imagePath, index) => (
-            <div key={index} className="col-span-1">
-              <div className="flex justify-center">
-                <div className="w-[400px] h-full">
+          <div className={`flex ${index === 0 || index === 2 ? 'justify-end' : 'justify-start'}`}>
+          <div className="flex justify-end">
+                <div className="w-[380px] h-full">
                   <Image
                     style={{ borderRadius: "20px" }}
                     src={imagePath}
@@ -70,4 +70,4 @@ const whatWeDoAndWhy = () => {
   );
 };
 
-export default whatWeDoAndWhy;
+export default WhatWeDoAndWhy;
