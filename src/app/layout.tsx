@@ -1,9 +1,9 @@
 import "./globals.css";
-import type { Metadata } from "next";
-import { Inter, Maven_Pro, Mulish, Orbitron } from "next/font/google";
+import type {Metadata} from "next";
+import {Inter, Maven_Pro, Mulish, Orbitron} from "next/font/google";
 import NavBar from "@/components/navbar/navbar";
 import Footer from "@/components/footer/page";
-import backgroundImage from "../../public/photos/01_landingPage/photos/close-up-portrait-of-freelance-it-specialists-looking-at-laptop-screen-with-smile.jpg";
+import WhatWeDoAndWhy from "@/components/whatWeDoAndWhy";
 
 const mavernPro = Maven_Pro({ subsets: ["latin"], variable: "--display-font" });
 const mulish = Mulish({ subsets: ["latin"] });
@@ -29,6 +29,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <NavBar />
         <main>{children}</main>
+        <WhatWeDoAndWhy />
         <Footer />
       </body>
     </html>
