@@ -12,7 +12,7 @@ function NavBar() {
             <div className="flex items-center space-x-4">
               <Link
                 className="font-logo text-2xl flex justify-center items-center tracking-widest lowercase rounded-lg focus:outline-none focus:shadow-outline"
-                href="#"
+                href="/"
               >
                 <Image
                   className="w-8 flex mt-2 mr-1"
@@ -26,19 +26,19 @@ function NavBar() {
             <div className="flex space-x-4">
               <Link
                 className="px-4 py-2 text-xl font-semibold bg-transparent rounded-lg hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
-                href="/#"
+                href="/whatwedo"
               >
                 What we do
               </Link>
               <Link
                 className="px-4 py-2 text-xl font-semibold bg-transparent rounded-lg hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
-                href="#"
+                href="/#"
               >
                 Take Action
               </Link>
               <Link
                 className="px-4 py-2 text-xl font-semibold bg-transparent rounded-lg hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
-                href="#"
+                href="/#"
               >
                 About
               </Link>
