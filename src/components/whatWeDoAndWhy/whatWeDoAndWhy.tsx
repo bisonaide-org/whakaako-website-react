@@ -1,9 +1,9 @@
 import Image from "next/image";
 import React from "react";
-import image1 from "../../public/photos/01_landingPage/photos/1.jpeg";
-import image2 from "../../public/photos/01_landingPage/photos/2.jpeg";
-import image3 from "../../public/photos/01_landingPage/photos/3.jpeg";
-import image4 from "../../public/photos/01_landingPage/photos/4.jpeg";
+import image1 from "../../../public/photos/01_landingPage/photos/1.jpeg";
+import image2 from "../../../public/photos/01_landingPage/photos/2.jpeg";
+import image3 from "../../../public/photos/01_landingPage/photos/3.jpeg";
+import image4 from "../../../public/photos/01_landingPage/photos/4.jpeg";
 
 const images = [
     image1,
@@ -14,7 +14,7 @@ const images = [
 
 const WhatWeDoAndWhy = () => {
     return (
-        <div className="flex flex-col justify-center items-center ">
+        <div className="flex flex-col justify-center items-center h-screen ">
             {/* First div with 1/4 height */}
             <div className="flex-1/4 p-2 justify-between items-center ">
                 <div className="flex flex-col justify-center items-center">
@@ -32,7 +32,7 @@ const WhatWeDoAndWhy = () => {
                         countries.
                     </p>
                 </div>
-                <div className="w-36 border border-b-8 border-gray-700 rounded m-auto my-4"></div>
+                <div className="w-36 border border-b-8 border-gray-700 rounded m-auto my-4 mb-1"></div>
             </div>
 
             {/* Second div with 2/4 (1/2) height */}
@@ -68,7 +68,7 @@ const WhatWeDoAndWhy = () => {
                     always
                 </p>
                 <p>here for you. We would love to hear from you.</p>
-                <div className="w-36 border border-b-8 border-gray-700 mt-3 rounded"></div>
+                <div className="w-36 border border-b-8 border-gray-700 mt-3 rounded  "></div>
             </div>
         </div>
     );

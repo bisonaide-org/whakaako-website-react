@@ -1,6 +1,7 @@
 import Header from "@/components/header/header";
 import backgroundImage from "../../public/photos/01_landingPage/photos/background.jpg";
-import WhatWeDoAndWhy from "@/components/whatWeDoAndWhy";
+import WhatWeDoAndWhy from "@/components/whatWeDoAndWhy/whatWeDoAndWhy";
+import OurMission from "@/components/ourMission";
 
 const Whakaako: React.FC = () => {
     return (
@@ -13,6 +14,7 @@ const Whakaako: React.FC = () => {
                 playText="in 30 Seconds"
             />
             <WhatWeDoAndWhy/>
+            <OurMission />
         </div>
     );
 };
