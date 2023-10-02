@@ -85,7 +85,7 @@ const OurMission = () => {
             </div>
 
             {/*Right of Education */}
-            <div className="h-1/2 w-[50%] flex flex-col mt-24 justify-evenly mx-auto items-center text-white">
+            <div className="relative z-10 h-1/2 w-[50%] flex flex-col mt-24 justify-evenly mx-auto items-center text-white">
                 <div className="text-4xl w-[47%]">Right of education</div>
                 <div className="w-[47%]  mx-auto flex flex-col gap-6">
                     <div>
