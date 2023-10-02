@@ -73,7 +73,7 @@ const OurMission = () => {
                 <div className="w-36 border border-b-8 border-white rounded m-auto my-4 mb-1"></div>
             </div>
             {/* icons */}
-            <div className="h-1/4 flex flex-row text-white  w-[80%] mx-auto ">
+            <div className="relative z-10 h-1/4 flex flex-row text-white  w-[80%] mx-auto ">
                 {array.map((item, index) => (
                     <IconComponent
                         key={index}
