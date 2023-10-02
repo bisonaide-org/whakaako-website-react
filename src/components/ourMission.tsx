@@ -48,7 +48,7 @@ export const IconComponent = ({imagePath, content, iconPath}: Props) => {
 const OurMission = () => {
     return (
         <div
-            className="flex flex-col w-full h-screen bg-no-repeat bg-cover "
+            className="relative flex flex-col bg-no-repeat bg-cover "
             style={{
                 backgroundImage: `url(${backgroundImage.src})`,
                 backgroundPosition: "center center",
