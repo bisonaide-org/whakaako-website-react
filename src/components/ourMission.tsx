@@ -55,6 +55,10 @@ const OurMission = () => {
                     // opacity:"0.7"
             }}
         >
+            <div
+        className="absolute inset-0"
+        style={{ backgroundColor: "rgba(47, 61, 86, 0.75)" }}
+      ></div>
             <div className="h-1/4 flex flex-col justify-evenly text-white items-center">
                 {/* Our Mission */}
 
