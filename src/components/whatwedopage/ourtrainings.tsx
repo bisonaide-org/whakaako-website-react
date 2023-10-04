@@ -58,7 +58,10 @@ const OurTrainings = () => {
                 <h3 className=" text-display4">{item.heading}</h3>
                 <p>{item.text}</p>
                 {item?.flashGreenIcon && (
-                  <Link href="#" className="flex items-center gap-2">
+                  <Link
+                    href="#courseFinder"
+                    className="flex items-center gap-2"
+                  >
                     <Image
                       src={item.flashGreenIcon}
                       alt="section icon"
