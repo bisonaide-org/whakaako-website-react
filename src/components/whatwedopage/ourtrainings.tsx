@@ -37,7 +37,7 @@ const OurTrainings = () => {
         style={{ backgroundColor: "rgba(47, 61, 86, 0.75)" }}
       ></div>
       <div className="relative z-10 flex flex-col items-center mx-5 py-10 md:mx-auto md:py-20">
-        <h2 className="text-center text-display1 font-display mb-12">
+        <h2 className="text-center text-display2 font-display mb-12">
           Our Training Offerings
         </h2>
         <div className="flex flex-col gap-16">
