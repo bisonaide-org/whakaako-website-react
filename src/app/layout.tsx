@@ -1,6 +1,6 @@
 import "./globals.css";
-import type {Metadata} from "next";
-import {Inter, Maven_Pro, Mulish, Orbitron} from "next/font/google";
+import type { Metadata } from "next";
+import { Inter, Maven_Pro, Mulish, Orbitron } from "next/font/google";
 import NavBar from "@/components/navbar/navbar";
 import Footer from "@/components/footer/page";
 
@@ -24,6 +24,7 @@ export default function RootLayout({
     <html
       lang="en"
       className={`${mavernPro.variable} ${mulish.className} ${orbitron.variable}`}
+      style={{ scrollBehavior: "smooth" }}
     >
       <body className={inter.className}>
         <NavBar />
