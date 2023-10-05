@@ -7,6 +7,7 @@ import cardImage4 from "../../../public/photos/02_WhatWeDo/Illustrations/Seminar
 const CourseFinder = () => {
   return (
     <section
+      id="courseFinder"
       style={{ backgroundColor: " rgba(221, 226, 237, 0.75)" }}
       className=" pt-16 pb-28"
     >

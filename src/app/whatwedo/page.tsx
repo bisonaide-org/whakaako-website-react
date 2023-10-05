@@ -3,6 +3,7 @@ import React from "react";
 import backgroundImage from "../../../public/photos/02_WhatWeDo/background.jpg";
 import Quote from "@/components/whatwedopage/quote";
 import CourseFinder from "@/components/whatwedopage/courseFinder";
+import OurTrainings from "@/components/whatwedopage/ourtrainings";
 
 const WhatWeDo = () => {
   return (
@@ -14,6 +15,7 @@ const WhatWeDo = () => {
         playTitle="course introduction"
       />
       <Quote />
+      <OurTrainings />
       <CourseFinder />
     </>
   );
