@@ -4,6 +4,7 @@ import backgroundImage from "../../../public/photos/02_WhatWeDo/background.jpg";
 import Quote from "@/components/whatwedopage/quote";
 import CourseFinder from "@/components/whatwedopage/courseFinder";
 import OurTrainings from "@/components/whatwedopage/ourtrainings";
+import WhatWeDoAndWhy from "@/components/whatWeDoAndWhy";
 
 const WhatWeDo = () => {
   return (
@@ -17,6 +18,11 @@ const WhatWeDo = () => {
       <Quote />
       <OurTrainings />
       <CourseFinder />
+      <WhatWeDoAndWhy
+        text="If you`re interested in learning more about whakaako or bisonaide in general, please don`t hesitate to reach out to us. We would love to hear from you!"
+        isHorizantalBreak={false}
+        isButtonDown={true}
+      />
     </>
   );
 };

@@ -7,7 +7,13 @@ import image4 from "../../public/photos/01_landingPage/photos/4.jpeg";
 
 const images = [image1, image2, image3, image4];
 
-const WhatWeDoAndWhy = () => {
+interface Props {
+  text: string;
+  isHorizantalBreak: boolean;
+  isButtonDown: boolean;
+}
+
+const WhatWeDoAndWhy = (props: Props) => {
   return (
     <div className="flex flex-col justify-center items-center text-grayBodtText px-5 pt-16 pb-14 md:px-0">
       <div className="pb-11">
@@ -28,7 +34,9 @@ const WhatWeDoAndWhy = () => {
             countries.
           </p>
         </div>
-        <hr className=" w-20 h-1 bg-grayBodtText mx-auto rounded" />
+        {props.isHorizantalBreak && (
+          <hr className=" w-20 h-1 bg-grayBodtText mx-auto rounded" />
+        )}
       </div>
 
       <div className="pb-12">
@@ -59,14 +67,25 @@ const WhatWeDoAndWhy = () => {
 
       <div className="text-center mt-2">
         <p className=" text-display2 font-display pb-6">We are here for you!</p>
-        <button className=" px-4 py-2 mb-7 text-sm font-semibold font-display rounded-lg border-2 border-cyan hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline">
-          <span>contact us</span>
-        </button>
-        <p className=" max-w-md pb-10">
-          If you want to know about whakaako or bisonaide in general, we are
-          always here for you. We would love to hear from you.
-        </p>
-        <hr className=" w-20 h-1 bg-grayBodtText mx-auto rounded" />
+        {!props.isButtonDown && (
+          <button
+            className={` px-4 py-2 mb-7 text-sm font-semibold font-display rounded-lg border-2 border-cyan hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline`}
+          >
+            <span>contact us</span>
+          </button>
+        )}
+
+        <p className=" max-w-md pb-10">{props.text}</p>
+        {props.isButtonDown && (
+          <button
+            className={` px-4 py-2 mb-7 text-sm font-semibold font-display rounded-lg border-2 border-yellowGreen hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline`}
+          >
+            <span>contact us</span>
+          </button>
+        )}
+        {props.isHorizantalBreak && (
+          <hr className=" w-20 h-1 bg-grayBodtText mx-auto rounded" />
+        )}
       </div>
     </div>
   );
