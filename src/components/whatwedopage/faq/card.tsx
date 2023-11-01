@@ -15,23 +15,20 @@ const Card: React.FC<Props> = ({
   handleToggle,
 }) => {
   return (
-    <div className=" py-7">
-      <button
-        className="flex items-center gap-2"
-        onClick={() => handleToggle()}
-      >
-        <Image src={flashGreenIcon} alt="section icon" width={25} height={25} />
-        <p className=" pl-5">{question}</p>
+    <div className=" py-5">
+      <button className="flex md:items-center" onClick={() => handleToggle()}>
+        <Image src={flashGreenIcon} alt="section icon" width={31} height={48} />
+        <p className=" pl-5 md:pl-11">{question}</p>
       </button>
-      {answer && <p className=" text-small pl-14 pb-5">{answer}</p>}
+      {answer && <p className=" text-small pl-10 md:pl-20 pb-5">{answer}</p>}
       {answerDetails && (
-        <div className="text-small pl-14">
-          <ol className=" list-decimal pl-10">
+        <div className="text-small">
+          <ol className=" list-decimal pl-16 md:pl-28">
             {answerDetails.criterias.map((criteria: string, i: number) => (
               <li key={i}>{criteria}</li>
             ))}
           </ol>
-          <p className=" pt-5">{answerDetails.last}</p>
+          <p className="pl-10 md:pl-20 pt-5">{answerDetails.last}</p>
         </div>
       )}
     </div>
