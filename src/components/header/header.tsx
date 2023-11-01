@@ -36,7 +36,9 @@ const Header = (props: Props) => {
           <h1 className=" font-display text-yellowGreen text-5xl md:text-7xl mb-6">
             {props.heading}
           </h1>
-          <p className=" text-quote mb-20 md:w-2/3">{`${props.text}`}</p>
+          <div className=" md:w-[540px] ">
+            <p className=" text-quote mb-20 whitespace-pre-wrap ">{`${props.text}`}</p>
+          </div>
           {props.playTitle && (
             <div className="flex  justify-start items-center gap-6">
               <div>

@@ -11,8 +11,8 @@ const orbitron = Orbitron({ subsets: ["latin"], variable: "--logo-font" });
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Whakaako",
-  description: "Whakaako web site",
+  title: "Oakyard",
+  description: "Oakyard web site",
 };
 
 export default function RootLayout({
