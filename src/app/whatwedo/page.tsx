@@ -6,6 +6,7 @@ import CourseFinder from "@/components/whatwedopage/courseFinder";
 import Requirements from "@/components/whatwedopage/requirements";
 import OurTrainings from "@/components/whatwedopage/ourtrainings";
 import WhatWeDoAndWhy from "@/components/whatWeDoAndWhy";
+import Faq from "@/components/whatwedopage/faq/faq";
 
 const WhatWeDo = () => {
   return (
@@ -18,6 +19,7 @@ const WhatWeDo = () => {
       />
       <Quote />
       <OurTrainings />
+      <Faq />
       <CourseFinder />
       <Requirements />
       <WhatWeDoAndWhy
