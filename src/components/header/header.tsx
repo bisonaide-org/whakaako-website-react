@@ -27,7 +27,7 @@ const Header = (props: Props) => {
         <div className="hidden md:block md:row-start-3 md:row-span-1">
           <Image
             src={iconOakyardOnDark.src}
-            alt="logo"
+            alt="oakyard logo"
             width={135}
             height={152}
           />
