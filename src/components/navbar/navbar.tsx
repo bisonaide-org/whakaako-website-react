@@ -1,6 +1,6 @@
 import Link from "next/link";
 import "./navbar.css";
-import whiteLogo from "../../../public/photos/white_Logo.svg";
+import logoOakyardOnDark from "../../../public/photos/logos/Logo_Oakyard_on_dark.svg";
 import Image from "next/image";
 
 function NavBar() {
@@ -15,11 +15,11 @@ function NavBar() {
                 href="/"
               >
                 <Image
-                  className="w-8 flex mt-2 mr-1"
-                  src={whiteLogo}
-                  alt="Whakaako Logo"
+                  src={logoOakyardOnDark}
+                  alt="oakyard logo"
+                  width={85}
+                  height={26}
                 />
-                Whakaako
               </Link>
             </div>
 

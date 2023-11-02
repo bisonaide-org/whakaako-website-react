@@ -1,5 +1,5 @@
 import Image from "next/image";
-import whiteLogo from "../../../public/photos/white_Logo.svg";
+import iconOakyardOnDark from "../../../public/photos/logos/Icon_Oakyard_on_dark.svg";
 import playIcon from "../../../public/play.svg";
 
 interface Props {
@@ -25,13 +25,20 @@ const Header = (props: Props) => {
       ></div>
       <div className="relative z-10 min-h-screen max-w-5xl flex flex-col justify-center px-5 pt-24 text-white md:grid md:grid-rows-5 md:grid-flow-col md:gap-6  md:px-0 md:pl-14 md:mx-auto md:pt-0 md:justify-start ">
         <div className="hidden md:block md:row-start-3 md:row-span-1">
-          <Image src={whiteLogo.src} alt="logo" width={135} height={152} />
+          <Image
+            src={iconOakyardOnDark.src}
+            alt="oakyard logo"
+            width={135}
+            height={152}
+          />
         </div>
         <div className="md:row-start-3 md:row-span-3 ">
           <h1 className=" font-display text-yellowGreen text-5xl md:text-7xl mb-6">
             {props.heading}
           </h1>
-          <p className=" text-quote mb-20 md:w-2/3">{`${props.text}`}</p>
+          <div className=" md:w-[540px] ">
+            <p className=" text-quote mb-20 whitespace-pre-wrap ">{`${props.text}`}</p>
+          </div>
           {props.playTitle && (
             <div className="flex  justify-start items-center gap-6">
               <div>

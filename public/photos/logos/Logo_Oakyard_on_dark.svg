@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 12880 4285" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,0,-5135.59)">
+        <g transform="matrix(0.305147,0,0,0.502744,-3671.54,5230.07)">
+            <rect id="On-dark" serif:id="On dark" x="12032" y="-187.928" width="42206.1" height="8521.96" style="fill:none;"/>
+            <g id="On-dark1" serif:id="On dark">
+                <g transform="matrix(13.5934,0.783527,-1.29089,8.25074,3689.03,-4177.54)">
+                    <path d="M1654.1,847.019C1654.1,1077.82 1479.48,1268.59 1255.4,1294.13L1174.33,1134.79C1184.11,1135.8 1194.03,1136.32 1204.08,1136.32C1363.51,1136.32 1493.38,1006.46 1493.38,847.019C1493.38,687.582 1363.51,557.718 1204.08,557.718C1097.55,557.718 1004.23,615.686 954.021,701.71L873.017,542.473C955.322,453.08 1073.26,396.996 1204.08,396.996C1452.23,396.996 1654.1,598.863 1654.1,847.019Z" style="fill:rgb(156,156,167);stroke:black;stroke-width:0.24px;"/>
+                </g>
+                <g transform="matrix(13.5934,0.783527,-1.29089,8.25074,3689.03,-4177.54)">
+                    <path d="M1178.17,1297.03L1157.05,1297.03C1086.99,1291.04 1021.43,1268.95 964.121,1234.41C832.978,1155.53 745.073,1011.79 745.073,847.902C745.073,833.339 745.75,818.964 747.142,804.778C754.405,728.35 780.822,657.453 821.614,596.905L866.093,684.246L914.374,779.076C908.917,801.127 906.057,824.195 906.057,847.902C906.057,968.772 980.528,1072.67 1085.97,1116.06L1178.17,1297.03Z" style="fill:rgb(208,255,56);"/>
+                </g>
+                <g transform="matrix(6.91072,0,0,4.19456,-90974,2795.3)">
+                    <g transform="matrix(0.966524,0,0,1,562.524,0)">
+                        <g transform="matrix(1345.29,0,0,1345.29,21122.9,941.288)">
+                        </g>
+                        <text x="16804px" y="941.288px" style="font-family:'FranklinGothic-Heavy', 'Franklin Gothic Heavy', sans-serif;font-size:1345.29px;fill:rgb(156,156,167);">aky<tspan x="19030.8px 19819.7px " y="941.288px 941.288px ">ar</tspan>d</text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
