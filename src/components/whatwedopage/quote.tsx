@@ -4,7 +4,7 @@ import quoteImage from "../../../public/photos/Quote.svg";
 const Quote = () => {
   return (
     <section>
-      <div className="text-small max-w-[750px] pt-20 pb-14 px-5 flex justify-center m-auto gap-5 md:gap-11 md:px-0">
+      <div className=" text-quote max-w-[640px] pt-20 pb-14 px-5 flex justify-center m-auto gap-5 md:gap-11 md:px-0">
         <div>
           <Image
             src={quoteImage}
@@ -15,12 +15,11 @@ const Quote = () => {
         </div>
         <div>
           <p className=" text-grayBodtText pb-14">
-            People with passion can change the world for the better. The people
-            who are crazy enough to think they can change the world are the ones
-            who do.
+            Education is the passport to the future, for tomorrow belongs to
+            those who prepare for it today.
           </p>
-          <p className=" text-lightGrayBodyText italic text-center">
-            -Steve Jobs
+          <p className=" text-small text-lightGrayBodyText italic text-center">
+            - Malcom X
           </p>
         </div>
       </div>
