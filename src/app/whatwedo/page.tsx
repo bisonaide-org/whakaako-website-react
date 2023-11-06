@@ -4,7 +4,7 @@ import backgroundImage from "../../../public/photos/02_WhatWeDo/background.jpg";
 import Quote from "@/components/whatwedopage/quote";
 import CourseFinder from "@/components/whatwedopage/courseFinder";
 import Requirements from "@/components/whatwedopage/requirements";
-import OurTrainings from "@/components/whatwedopage/ourtrainings";
+import AcademyFeatures from "@/components/whatwedopage/academyfeatures";
 import WhatWeDoAndWhy from "@/components/whatWeDoAndWhy";
 import Faq from "@/components/whatwedopage/faq/faq";
 
@@ -18,7 +18,7 @@ const WhatWeDo = () => {
         playTitle="course introduction"
       />
       <Quote />
-      <OurTrainings />
+      <AcademyFeatures />
       <Faq />
       <CourseFinder />
       <Requirements />
