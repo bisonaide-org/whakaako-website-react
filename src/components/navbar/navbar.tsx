@@ -73,7 +73,7 @@ function NavBar() {
         <div
           className={`${
             isOpen ? "block bg-grayBodtText py-3" : "hidden"
-          } lg:flex lg:items-center gap-16`}
+          } lg:flex lg:items-center gap-40`}
         >
           <div className="lg:flex lg:items-center lg:justify-between">
             {navlist.map((navItem, navIndex) => (
