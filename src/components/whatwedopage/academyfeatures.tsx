@@ -5,7 +5,7 @@ import backgroundImage from "../../../public/photos/02_WhatWeDo/Background_Acade
 import Link from "next/link";
 import { useState } from "react";
 
-const ourTrainingOfferings = [
+const academyFeaturesList = [
   {
     iconPath: "/photos/02_WhatWeDo/Icons/Bild1.png",
     heading: "Diverse Course Selection",
@@ -35,7 +35,7 @@ const ourTrainingOfferings = [
   },
 ];
 
-const OurTrainings = () => {
+const AcademyFeatures = () => {
   const [toggle, setToggle] = useState(false);
   const handleClick = () => {
     setToggle(!toggle);
@@ -56,7 +56,7 @@ const OurTrainings = () => {
           ACADEMY features
         </h2>
         <div className="flex flex-col gap-16">
-          {ourTrainingOfferings.map((item) => (
+          {academyFeaturesList.map((item) => (
             <div
               key={item.heading}
               className="flex flex-col items-center gap-4 md:flex-row md:gap-16 md:items-start"
@@ -118,4 +118,4 @@ const OurTrainings = () => {
   );
 };
 
-export default OurTrainings;
+export default AcademyFeatures;
