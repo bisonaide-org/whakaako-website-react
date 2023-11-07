@@ -1,6 +1,6 @@
 import Header from "@/components/header/header";
 import React from "react";
-import backgroundImage from "../../../public/photos/02_WhatWeDo/background.png";
+import backgroundImage from "../../../../public/photos/02_WhatWeDo/background.png";
 import Quote from "@/components/whatwedopage/quote";
 import CourseFinder from "@/components/whatwedopage/courseFinder/courseFinder";
 import AcademyFeatures from "@/components/whatwedopage/academyfeatures";
