@@ -2,9 +2,9 @@ import Header from "@/components/header/header";
 import React from "react";
 import backgroundImage from "../../../../public/photos/02_WhatWeDo/background.jpg";
 import Quote from "@/components/whatwedopage/quote";
-import CourseFinder from "@/components/whatwedopage/courseFinder";
+import CourseFinder from "@/components/whatwedopage/courseFinder/courseFinder";
 import Requirements from "@/components/whatwedopage/requirements";
-import OurTrainings from "@/components/whatwedopage/ourtrainings";
+import AcademyFeatures from "@/components/whatwedopage/academyfeatures";
 import WhatWeDoAndWhy from "@/components/whatWeDoAndWhy";
 import Faq from "@/components/whatwedopage/faq/faq";
 
@@ -18,15 +18,9 @@ const Academy = () => {
         playTitle="course introduction"
       />
       <Quote />
-      <OurTrainings />
+      <AcademyFeatures />
       <Faq />
       <CourseFinder />
-      <Requirements />
-      <WhatWeDoAndWhy
-        text="If you`re interested in learning more about whakaako or bisonaide in general, please don`t hesitate to reach out to us. We would love to hear from you!"
-        isHorizantalBreak={false}
-        isButtonDown={true}
-      />
     </>
   );
 };
