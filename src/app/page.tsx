@@ -2,7 +2,7 @@ import Header from "@/components/header/header";
 import backgroundImage from "../../public/photos/01_landingPage/photos/background.jpg";
 import WhatWeDoAndWhy from "@/components/whatWeDoAndWhy";
 
-const Whakaako: React.FC = () => {
+const Oakyard: React.FC = () => {
   return (
     <div>
       <Header
@@ -23,4 +23,4 @@ const Whakaako: React.FC = () => {
   );
 };
 
-export default Whakaako;
+export default Oakyard;

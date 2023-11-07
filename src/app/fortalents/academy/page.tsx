@@ -1,10 +1,10 @@
 import Header from "@/components/header/header";
 import React from "react";
-import backgroundImage from "../../../../public/photos/02_WhatWeDo/background.png";
-import Quote from "@/components/whatwedopage/quote";
-import CourseFinder from "@/components/whatwedopage/courseFinder/courseFinder";
-import AcademyFeatures from "@/components/whatwedopage/academyfeatures";
-import Faq from "@/components/whatwedopage/faq/faq";
+import backgroundImage from "../../../../public/photos/02_ForTalents/AcademyPhotos/background.png";
+import Quote from "@/components/forTalents/quote";
+import CourseFinder from "@/components/forTalents/academyPage/courseFinder/courseFinder";
+import AcademyFeatures from "@/components/forTalents/academyPage/academyfeatures";
+import Faq from "@/components/forTalents/academyPage/faq/faq";
 
 const Academy = () => {
   return (
