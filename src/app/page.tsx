@@ -2,15 +2,16 @@ import Header from "@/components/header/header";
 import backgroundImage from "../../public/photos/01_landingPage/photos/background.jpg";
 import WhatWeDoAndWhy from "@/components/whatWeDoAndWhy";
 
-const Whakaako: React.FC = () => {
+const Oakyard: React.FC = () => {
   return (
     <div>
       <Header
         backgroundImage={backgroundImage.src}
-        heading="Spark your future"
-        text="With the whakaako initiative, we offer free IT training courses for disadvantaged people. Worldwide."
-        playTitle="whakaako."
-        playText="in 30 Seconds"
+        heading="We create talents"
+        text={
+          "Find your talents and hire from countries in crisis or need.\nStart your IT career @oakyard.\nFor a better future.\nWorldwide."
+        }
+        playTitle="In a nutshell."
       />
       <WhatWeDoAndWhy
         text="If you want to know about whakaako or bisonaide in general, we are
@@ -22,4 +23,4 @@ const Whakaako: React.FC = () => {
   );
 };
 
-export default Whakaako;
+export default Oakyard;
