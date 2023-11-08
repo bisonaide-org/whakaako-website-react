@@ -1,21 +1,22 @@
 import Header from "@/components/header/header";
 import React from "react";
-import backgroundImage from "../../../../public/photos/02_WhatWeDo/background.jpg";
-import Quote from "@/components/whatwedopage/quote";
-import CourseFinder from "@/components/whatwedopage/courseFinder/courseFinder";
-import Requirements from "@/components/whatwedopage/requirements";
-import AcademyFeatures from "@/components/whatwedopage/academyfeatures";
-import WhatWeDoAndWhy from "@/components/whatWeDoAndWhy";
-import Faq from "@/components/whatwedopage/faq/faq";
+import backgroundImage from "../../../../public/photos/02_ForTalents/AcademyPhotos/background.png";
+import Quote from "@/components/forTalents/quote";
+import CourseFinder from "@/components/forTalents/academyPage/courseFinder/courseFinder";
+import AcademyFeatures from "@/components/forTalents/academyPage/academyfeatures";
+import Faq from "@/components/forTalents/academyPage/faq/faq";
 
 const Academy = () => {
   return (
     <>
       <Header
         backgroundImage={backgroundImage.src}
-        heading="What we do"
-        text="Our nonproﬁt organization is dedicated to offering you high-quality IT education at various locations. In collaboration with our dedicated partners, we provide hands-on training in a group setting."
-        playTitle="course introduction"
+        heading="ACADEMY"
+        text="The oakyard ACADEMY is committed to providing mentor-led IT
+        courses for young people with restricted access to IT education and
+        Jobs . We also instructs on other essential subjects that the world of
+        tomorrow requires."
+        playTitle="the Oakyard ACADEMY"
       />
       <Quote />
       <AcademyFeatures />
