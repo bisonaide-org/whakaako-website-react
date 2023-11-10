@@ -1,6 +1,7 @@
 import Header from "@/components/header/header";
 import backgroundImage from "../../public/photos/01_landingPage/photos/background.jpg";
 import WhatWeDoAndWhy from "@/components/whatWeDoAndWhy";
+import NewsUpdatesInsights from "@/components/newsUpdates/newsUpdatesInsights";
 
 const Oakyard: React.FC = () => {
   return (
@@ -19,6 +20,7 @@ const Oakyard: React.FC = () => {
         isHorizantalBreak={true}
         isButtonDown={false}
       />
+      <NewsUpdatesInsights/>
     </div>
   );
 };
