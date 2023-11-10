@@ -1,7 +1,7 @@
 import Header from "@/components/header/header";
-import backgroundImage from "../../public/photos/01_landingPage/photos/background.jpg";
-import WhatWeDoAndWhy from "@/components/whatWeDoAndWhy";
 import NewsUpdatesInsights from "@/components/newsUpdates/newsUpdatesInsights";
+import backgroundImage from "../../public/photos/01_landingPage/photos/header_background.jpg";
+import BreakingBarriers from "@/components/landingPage/breakingBarriers";
 
 const Oakyard: React.FC = () => {
   return (
@@ -14,12 +14,7 @@ const Oakyard: React.FC = () => {
         }
         playTitle="In a nutshell."
       />
-      <WhatWeDoAndWhy
-        text="If you want to know about whakaako or bisonaide in general, we are
-        always here for you. We would love to hear from you."
-        isHorizantalBreak={true}
-        isButtonDown={false}
-      />
+      <BreakingBarriers />
       <NewsUpdatesInsights/>
     </div>
   );

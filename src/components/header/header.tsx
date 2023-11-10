@@ -1,6 +1,6 @@
 import Image from "next/image";
 import iconOakyardOnDark from "../../../public/photos/logos/Icon_Oakyard_on_dark.svg";
-import playIcon from "../../../public/play.svg";
+import playIcon from "../../../public/photos/Shared_Icons/play.svg";
 
 interface Props {
   backgroundImage: string;
