@@ -16,7 +16,7 @@ const newsUpdatesInsights = () => {
         </div>
         <div className=" text-center pb-9">
           <p className=" pb-9">
-            You can't change the world in one day but the world changes every
+            You can&apos;t change the world in one day but the world changes every
             day.
           </p>
           <hr className=" w-20 h-1 bg-grayBodtText mx-auto rounded " />

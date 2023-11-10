@@ -6,11 +6,11 @@ import { useState } from "react";
 interface Props {
   title: string;
   content: string;
-  fullContent: string;
+  fullContent?: string;
   image: string;
 }
 
-const newsCard = (props: Props) => {
+const NewsCard = (props: Props) => {
   const [isContentVisible, setContentVisible] = useState(false);
   const openPdf = () => {
     window.open(
@@ -76,4 +76,4 @@ const newsCard = (props: Props) => {
   );
 };
 
-export default newsCard;
+export default NewsCard;
