@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import backgroundImage from "../../../../public/photos/02_ForTalents/AcademyPhotos/Background_Academy_features.png";
+import backgroundImage from "../../../../public/photos/02_ForTalents/AcademyPhotos/background_academy_features.jpg";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -10,7 +10,7 @@ const academyFeaturesList = [
     iconPath: "/photos/02_ForTalents/Icons/Bild1.png",
     heading: "Diverse Course Selection",
     text: " We offer courses at various levels to cater to your individual needs. From beginners to experts, you'll ﬁnd the right course for your IT journey",
-    flashGreenIcon: "/photos/02_ForTalents/Icons/flashGreenIcon.svg",
+    flashGreenIcon: "/photos/Shared_Icons/flashGreenIcon.svg",
     link: true,
     linkText: "Course Finder",
   },
@@ -20,16 +20,16 @@ const academyFeaturesList = [
     text: "We believe that the most effective learning occurs when you can ask questions and receive practical tasks to demonstrate your ability to apply theory. Our experienced IT professionals provide guidance and assistance in this process.",
   },
   {
-    iconPath: "/photos/02_ForTalents/Icons/Bild2.png",
+    iconPath: "/photos/Shared_Icons/Bild2.png",
     heading: "Hands-On",
     text: "We provide hands-on projects, allowing students and graduates to apply their knowledge and gain practical experience, bridging the gap between academia and real-world skills.",
-    flashGreenIcon: "/photos/02_ForTalents/Icons/flashGreenIcon.svg",
+    flashGreenIcon: "/photos/Shared_Icons/flashGreenIcon.svg",
     button: true,
     buttonText: "Training overview",
     collapsableText: "Currently no trainings open",
   },
   {
-    iconPath: "/photos/02_ForTalents/Icons/Bild4.png",
+    iconPath: "/photos/Shared_Icons/Bild4.png",
     heading: "Global Career",
     text: " Our goal is to prepare you for the global job market. We provide job search support and connect you with companies worldwide.",
   },

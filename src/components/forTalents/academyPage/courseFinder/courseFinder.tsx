@@ -2,7 +2,7 @@ import Card from "./card";
 import newbieImage from "../../../../../public/photos/02_ForTalents/Icons/newbie.png";
 import skilledImage from "../../../../../public/photos/02_ForTalents/Icons/skilled.png";
 import expertImage from "../../../../../public/photos/02_ForTalents/Icons/expert.png";
-import backgroundImage from "../../../../../public/photos/02_ForTalents/AcademyPhotos/_B7A8451.jpeg";
+import backgroundImage from "../../../../../public/photos/02_ForTalents/AcademyPhotos/background_courseFinder.jpg";
 
 const courseCategories = [
   {

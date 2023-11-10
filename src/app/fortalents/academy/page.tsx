@@ -1,6 +1,6 @@
 import Header from "@/components/header/header";
 import React from "react";
-import backgroundImage from "../../../../public/photos/02_ForTalents/AcademyPhotos/background.png";
+import backgroundImage from "../../../../public/photos/02_ForTalents/AcademyPhotos/background_header.jpg";
 import Quote from "@/components/forTalents/quote";
 import CourseFinder from "@/components/forTalents/academyPage/courseFinder/courseFinder";
 import AcademyFeatures from "@/components/forTalents/academyPage/academyfeatures";
