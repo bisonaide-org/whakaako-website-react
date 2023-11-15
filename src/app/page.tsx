@@ -1,6 +1,7 @@
 import Header from "@/components/header/header";
 import backgroundImage from "../../public/photos/01_landingPage/photos/header_background.jpg";
 import BreakingBarriers from "@/components/landingPage/breakingBarriers";
+import VofVoluntueer from "../../src/components/landingPage/vofVolunteer";
 
 const Oakyard: React.FC = () => {
   return (
@@ -14,6 +15,7 @@ const Oakyard: React.FC = () => {
         playTitle="In a nutshell."
       />
       <BreakingBarriers />
+      <VofVoluntueer />
     </div>
   );
 };
