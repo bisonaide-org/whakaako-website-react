@@ -27,12 +27,12 @@ const Footer: React.FC = () => {
             <p className="text-justify">
               I pursued my love of research and earned a Doctorate in
               Biochemistry. I began instructing undergraduates as soon as I
-              completed my master's degree, beginning my teaching career, and I
-              piqued interest in writing at the young age of 22. I am thrilled
-              to be a part of the Oakyard Project as it spearheads to bridge the
-              gap between academic and industry needs by real-time project
-              learning. I have been a part of several education projects and
-              aspire to be a Project Manager. I am currently enjoying my
+              completed my master&apos;s degree, beginning my teaching career,
+              and I piqued interest in writing at the young age of 22. I am
+              thrilled to be a part of the Oakyard Project as it spearheads to
+              bridge the gap between academic and industry needs by real-time
+              project learning. I have been a part of several education projects
+              and aspire to be a Project Manager. I am currently enjoying my
               volunteer role as Project Facilitator.
             </p>
           </div>
