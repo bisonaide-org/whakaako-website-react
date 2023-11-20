@@ -14,7 +14,7 @@ const NewsCard = (props: Props) => {
   const [isContentVisible, setContentVisible] = useState(false);
   const openPdf = () => {
     window.open(
-      "https://bisonaide.sharepoint.com/:b:/s/wha.website/EeaoHFotjbxGpCVSYokJg7gBMRg4aa0wKKPjwz-bOoLNyg?e=OCFtLy",
+      "/documents/Refund_and_Cancellation_Policy_for_Oakyard_Academy_Online_Courses.pdf",
       "_blank"
     );
   };
@@ -24,7 +24,7 @@ const NewsCard = (props: Props) => {
   return (
     <div className="bg-white gap-1 items-center w-[253.401px] h-[510px] flex flex-col ">
       <div className="flex flex-col items-center">
-        <div className=" h-[180px] relative w-full">
+        <div className=" h-[150px] relative w-full">
           <Image
             className="rounded "
             src={props.image}
