@@ -10,13 +10,19 @@ interface Props {
   playText?: string;
 }
 
-const Header = (props: Props) => {
+const Header: React.FC<Props> = ({
+  backgroundImage,
+  heading,
+  text,
+  playTitle,
+  playText,
+}) => {
   return (
     <div className=" relative h-full min-h-screen">
       <div
         className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `url(${props.backgroundImage})`,
+          backgroundImage: `url(${backgroundImage})`,
         }}
       ></div>
       <div
@@ -33,12 +39,12 @@ const Header = (props: Props) => {
             height={150}
           />
           <h1 className=" font-display text-yellowGreen text-5xl md:text-7xl mb-6">
-            {props.heading}
+            {heading}
           </h1>
         </div>
         <div className=" max-w-[700px] pl-0 md:pl-[170px]">
-          <p className=" text-white text-quote whitespace-pre-wrap ">{`${props.text}`}</p>
-          {props.playTitle && (
+          <p className=" text-white text-quote whitespace-pre-wrap ">{`${text}`}</p>
+          {playTitle && (
             <div className="absolute mt-5 text-white flex  justify-start items-center gap-6">
               <div>
                 <Image
@@ -49,8 +55,8 @@ const Header = (props: Props) => {
                 />
               </div>
               <div>
-                <span className="font-bold">{props.playTitle}</span>
-                <span className="font-normal">{props.playText}</span>
+                <span className="font-bold">{playTitle}</span>
+                <span className="font-normal">{playText}</span>
               </div>
             </div>
           )}
