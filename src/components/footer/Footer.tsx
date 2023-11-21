@@ -78,10 +78,18 @@ const Footer: React.FC = () => {
               <h2 className="text-display2 font-display font-normal">Legal</h2>
               <hr className=" w-20  h-[4px]  bg-white rounded" />
             </div>
+
             <div className="flex flex-col mt-10">
-              <Link href="../../../public/documents/Privacy.pdf">Privacy</Link>
-              <Link href="../../../public/documents/Imprint.pdf">Imprint</Link>
-              <Link href="../../../public/documents/Refund and Cancellation Policy for Oakyard Academy Online Courses.pdf">
+              <Link href="/documents/Privacy.pdf" target="_blank">
+                Privacy Policy
+              </Link>
+              <Link href="/documents/Imprint.pdf" target="_blank">
+                Imprint Document
+              </Link>
+              <Link
+                href="/documents/Refund_and_Cancellation_Policy_for_Oakyard_Academy_Online_Courses.pdf"
+                target="_blank"
+              >
                 Refund Policy
               </Link>
             </div>
