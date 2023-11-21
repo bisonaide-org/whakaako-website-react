@@ -29,7 +29,7 @@ const navlist = [
   },
   {
     navName: "About",
-    to: "#", // add path when the page is ready "/about"
+    to: "/about",
   },
 ];
 
