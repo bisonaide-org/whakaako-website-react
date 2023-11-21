@@ -12,7 +12,7 @@ const navlist = [
     navName: "For Talents",
     to: "#",
     subnavList: [
-      { navName: "Job & More", to: "#" }, // add path when the page is ready "/fortalents/jobandmore"
+      { navName: "Job & More", to: "/fortalents/jobandmore" },
       {
         navName: "Academy",
         to: "/fortalents/academy",
