@@ -25,7 +25,7 @@ const navlist = [
   },
   {
     navName: "For Companies",
-    to: "#", // add path when the page is ready "/forcompanies"
+    to: "/forcompanies",
   },
   {
     navName: "About",
