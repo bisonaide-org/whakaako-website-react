@@ -19,7 +19,7 @@ const navlist = [
       },
       {
         navName: "Join The Communinty",
-        to: "#", // add path when the page is ready "/fortalents/jointhecommunity"
+        to: "/fortalents/jointhecommunity",
       },
     ],
   },
