@@ -1,7 +1,7 @@
 import Header from "@/components/header/header";
 import backgroundImage from "../../../public/photos/04_About/background_header.jpg";
 
-const JoinTheCommunity = () => {
+const About = () => {
   return (
     <>
       <Header
@@ -18,4 +18,4 @@ const JoinTheCommunity = () => {
   );
 };
 
-export default JoinTheCommunity;
+export default About;

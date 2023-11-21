@@ -1,7 +1,7 @@
 import Header from "@/components/header/header";
 import backgroundImage from "../../../../public/photos/02_ForTalents/JobAndMorePhotos/background_header.jpg";
 
-const JoinTheCommunity = () => {
+const JobAndMore = () => {
   return (
     <>
       <Header
@@ -16,4 +16,4 @@ const JoinTheCommunity = () => {
   );
 };
 
-export default JoinTheCommunity;
+export default JobAndMore;
