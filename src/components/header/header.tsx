@@ -18,6 +18,7 @@ const Header: React.FC<Props> = ({
   text,
   playTitle,
   playText,
+  isButton,
 }) => {
   return (
     <div className=" relative h-full min-h-screen">
@@ -62,7 +63,7 @@ const Header: React.FC<Props> = ({
               </div>
             </div>
           )}
-          {props.isButton && (
+          {isButton && (
             <div className="text-center">
               <Link
                 href="#"
