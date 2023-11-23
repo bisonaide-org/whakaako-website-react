@@ -1,6 +1,7 @@
 import Image from "next/image";
 import iconOakyardOnDark from "../../../public/photos/logos/Icon_Oakyard_on_dark.svg";
 import playIcon from "../../../public/photos/Shared_Icons/play.svg";
+import Link from "next/link";
 
 interface Props {
   backgroundImage: string;
@@ -8,6 +9,7 @@ interface Props {
   text: string;
   playTitle?: string;
   playText?: string;
+  isButton?: boolean;
 }
 
 const Header: React.FC<Props> = ({
@@ -60,6 +62,17 @@ const Header: React.FC<Props> = ({
               </div>
             </div>
           )}
+          {props.isButton && (
+            <div className="text-center">
+              <Link
+                href="#"
+                className="px-4 py-2 text-sm font-semibold font-display rounded-lg border-2 border-cyan hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+              >
+                Get started
+              </Link>
+            </div>
+          )}
+          {/* Jump to How It Works component when it is ready */}
         </div>
       </div>
     </div>
