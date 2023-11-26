@@ -24,7 +24,7 @@ const courseCategories = [
 
 const CourseFinder = () => {
   return (
-    <section className=" relative">
+    <section id="CourseFinder" className=" relative">
       <div
         className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
         style={{

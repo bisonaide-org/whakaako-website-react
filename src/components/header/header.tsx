@@ -13,6 +13,7 @@ interface Props {
 }
 
 const Header: React.FC<Props> = ({
+  isButton,
   backgroundImage,
   heading,
   text,
@@ -62,7 +63,7 @@ const Header: React.FC<Props> = ({
               </div>
             </div>
           )}
-          {props.isButton && (
+          {isButton && (
             <div className="text-center">
               <Link
                 href="#"
