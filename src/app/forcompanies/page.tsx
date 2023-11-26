@@ -1,5 +1,6 @@
 import Header from "@/components/header/header";
 import backgroundImage from "../../../public/photos/03_ForCompanies/background_header.jpg";
+import AskForARemoteAssistantForm from "@/components/forCompaniesPage/askForARemoteAsistantForm";
 
 const ForCompanies = () => {
   return (
@@ -12,6 +13,7 @@ const ForCompanies = () => {
         assistant or talented software expert and change a life."
         isButton={true}
       />
+      <AskForARemoteAssistantForm />
     </>
   );
 };
