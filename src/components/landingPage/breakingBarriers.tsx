@@ -5,7 +5,10 @@ import Link from "next/link";
 
 const BreakingBarriers = () => {
   return (
-    <div className="flex flex-col gap-20 items-center text-grayBodtText px-5 pt-16 pb-14 md:px-0">
+    <div
+      className="flex flex-col gap-20 items-center bg-lightGrayBackground
+    text-grayBodtText px-5 pt-16 pb-14 md:px-0"
+    >
       <div>
         <div className="text-center">
           <h2 className="text-display2 font-display pb-9 ">
