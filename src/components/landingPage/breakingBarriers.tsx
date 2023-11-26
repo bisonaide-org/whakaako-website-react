@@ -35,12 +35,8 @@ const BreakingBarriers = () => {
           </p>
         </div>
         <hr className=" mt-3 w-20 h-1 bg-grayBodtText mx-auto rounded" />
-
-        {/* {props.isHorizantalBreak && (
-          <hr className=" w-20 h-1 bg-grayBodtText mx-auto rounded" />
-        )} */}
       </div>
-      <div className="flex gap-3">
+      <div className="flex flex-col md:flex-row gap-3 ">
         <Image
           style={{ borderRadius: "20px" }}
           src={image1}
@@ -57,10 +53,11 @@ const BreakingBarriers = () => {
         />
       </div>
       <div className="flex flex-col items-center gap-5">
-        <p className=" text-display2 font-display">Heading for an IT career?</p>
-        {/*Set href to= /jointhecommunity when the page is ready  */}
+        <p className=" text-display2 font-display text-center">
+          Heading for an IT career?
+        </p>
         <Link
-          href="#"
+          href="/fortalents/jointhecommunity"
           className="px-4 py-2 text-sm font-semibold font-display rounded-lg border-2 border-cyan hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
         >
           <span>get started</span>
