@@ -4,6 +4,7 @@ import backgroundImage from "../../public/photos/01_landingPage/photos/header_ba
 import BreakingBarriers from "@/components/landingPage/breakingBarriers";
 import Sponsors from "@/components/landingPage/sponsors";
 import VofVolunteer from "../../src/components/landingPage/vofVolunteer";
+import CheckOut from "@/components/landingPage/checkout";
 
 const Oakyard: React.FC = () => {
   return (
@@ -17,10 +18,10 @@ const Oakyard: React.FC = () => {
         playTitle="In a nutshell."
       />
       <BreakingBarriers />
-      <NewsUpdatesInsights/>
+      <CheckOut />
+      <NewsUpdatesInsights />
       <Sponsors />
       <VofVolunteer />
-
     </div>
   );
 };
