@@ -1,7 +1,7 @@
 import Header from "@/components/header/header";
 import React from "react";
 import backgroundImage from "../../../../public/photos/02_ForTalents/AcademyPhotos/background_header.jpg";
-import Quote from "@/components/forTalents/quote";
+import Quote from "@/components/quote/quote";
 import CourseFinder from "@/components/forTalents/academyPage/courseFinder/courseFinder";
 import AcademyFeatures from "@/components/forTalents/academyPage/academyfeatures";
 import Faq from "@/components/forTalents/academyPage/faq/faq";
@@ -18,7 +18,10 @@ const Academy = () => {
         tomorrow requires."
         playTitle="the Oakyard ACADEMY"
       />
-      <Quote />
+      <Quote
+        quote="Education is the passport to the future, for tomorrow belongs to those who prepare for it today."
+        originator="Malcom X"
+      />
       <AcademyFeatures />
       <Faq />
       <CourseFinder />
