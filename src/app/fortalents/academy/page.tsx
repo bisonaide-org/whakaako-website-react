@@ -4,20 +4,10 @@ import backgroundImage from "../../../../public/photos/02_ForTalents/AcademyPhot
 import Quote from "@/components/forTalents/quote";
 import CourseFinder from "@/components/forTalents/academyPage/courseFinder/courseFinder";
 import Faq from "@/components/forTalents/academyPage/faq/faq";
-import FeaturesComponent from "@/components/forTalents/featuresComponent";
+import FeaturesComponent from "@/components/featuresComponent/featuresComponent";
 import academyImage from "../../../../public/photos/02_ForTalents/AcademyPhotos/background_academy_features.jpg";
-interface FeaturesItem {
-  iconPath: string;
-  heading: string;
-  text: string;
-  flashGreenIcon?: string;
-  link?: boolean;
-  linkText?: string;
-  button?: boolean;
-  buttonText?: string;
-  collapsableText?: string;
-  linkPath?: string;
-}
+import { FeaturesItem } from './../../../components/featuresComponent/types';
+
 
 const featuresList: FeaturesItem[] = [
   {

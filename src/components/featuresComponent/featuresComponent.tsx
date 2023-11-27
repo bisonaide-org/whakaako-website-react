@@ -3,23 +3,11 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import { FeaturesItem } from './types';
 
-interface FeatureItem {
-  iconPath: string;
-  heading: string;
-  text: string;
-  flashGreenIcon?: string;
-  link?: boolean;
-  linkText?: string;
-  button?: boolean;
-  buttonText?: string;
-  collapsableText?: string;
-  collapseLink?: string;
-  linkPath?: string;
-}
 
 interface FeaturesProps {
-  featuresList: FeatureItem[];
+  featuresList: FeaturesItem[];
   bgImage: string;
   headerText: string;
   isButtonInclude?: boolean;
@@ -101,7 +89,7 @@ const FeaturesComponent: React.FC<FeaturesProps> = ({
                     {toggle && (
                       <Link
                         className="text-yellowGreen underline"
-                        href={"/fortalents/jointhecommunity"}
+                        href="/fortalents/jointhecommunity"
                       >
                         {item.collapseLink}
                       </Link>
@@ -114,7 +102,7 @@ const FeaturesComponent: React.FC<FeaturesProps> = ({
         </div>
         {isButtonInclude && (
           <Link
-            href="/fortalents/jointhecommunity" //!Go to "Join our community" page when it is ready
+            href="/fortalents/jointhecommunity"
             className="text-white px-3 py-1 mt-3 text-sm font-semibold rounded-lg border-2 border-cyan"
           >
             get started

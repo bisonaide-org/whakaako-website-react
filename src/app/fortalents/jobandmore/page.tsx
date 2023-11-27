@@ -1,20 +1,9 @@
 import Header from "@/components/header/header";
 import backgroundImage from "../../../../public/photos/02_ForTalents/JobAndMorePhotos/background_header.jpg";
-import FeaturesComponent from "@/components/forTalents/featuresComponent";
+import FeaturesComponent from "@/components/featuresComponent/featuresComponent";
 import jmImage from "../../../../public/photos/02_ForTalents/JobAndMorePhotos/how_can_we_help_you.jpg";
-interface FeaturesItem {
-  iconPath: string;
-  heading: string;
-  text: string;
-  flashGreenIcon?: string;
-  link?: boolean;
-  linkText?: string;
-  button?: boolean;
-  buttonText?: string;
-  collapsableText?: string;
-  linkPath?: string;
-  collapseLink?: string;
-}
+import { FeaturesItem } from './../../../components/featuresComponent/types';
+
 
 const featuresList: FeaturesItem[] = [
   {
