@@ -13,7 +13,6 @@ interface Props {
 }
 
 const Header: React.FC<Props> = ({
-  isButton,
   backgroundImage,
   heading,
   text,
