@@ -1,13 +1,12 @@
 import Header from "@/components/header/header";
 import React from "react";
 import backgroundImage from "../../../../public/photos/02_ForTalents/AcademyPhotos/background_header.jpg";
-import Quote from "@/components/forTalents/quote";
+import Quote from "@/components/quote/quote";
 import CourseFinder from "@/components/forTalents/academyPage/courseFinder/courseFinder";
 import Faq from "@/components/forTalents/academyPage/faq/faq";
 import FeaturesComponent from "@/components/featuresComponent/featuresComponent";
 import academyImage from "../../../../public/photos/02_ForTalents/AcademyPhotos/background_academy_features.jpg";
-import { FeaturesItem } from './../../../components/featuresComponent/types';
-
+import { FeaturesItem } from "./../../../components/featuresComponent/types";
 
 const featuresList: FeaturesItem[] = [
   {
@@ -52,7 +51,10 @@ const Academy: React.FC = () => {
         tomorrow requires."
         playTitle="the Oakyard ACADEMY"
       />
-      <Quote />
+      <Quote
+        quote="Education is the passport to the future, for tomorrow belongs to those who prepare for it today."
+        originator="Malcom X"
+      />
       <FeaturesComponent
         featuresList={featuresList}
         bgImage={academyImage.src}

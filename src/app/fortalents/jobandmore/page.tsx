@@ -1,9 +1,9 @@
 import Header from "@/components/header/header";
 import backgroundImage from "../../../../public/photos/02_ForTalents/JobAndMorePhotos/background_header.jpg";
+import Quote from "@/components/quote/quote";
 import FeaturesComponent from "@/components/featuresComponent/featuresComponent";
 import jmImage from "../../../../public/photos/02_ForTalents/JobAndMorePhotos/how_can_we_help_you.jpg";
-import { FeaturesItem } from './../../../components/featuresComponent/types';
-
+import { FeaturesItem } from "./../../../components/featuresComponent/types";
 
 const featuresList: FeaturesItem[] = [
   {
@@ -47,6 +47,12 @@ const JobAndMore: React.FC = () => {
         to dive into projects for real-world experience before hitting the job
         market? Look no further – you're in the right place!
         "
+      />
+      <Quote
+        quote={
+          "Dreams without goals are just dreams.\nAnd ultimately they fuel disappointment.\nOn the road to achieving your dreams you must apply discipline.\nBut more importantly consistency.\nBecause without commitment you'll never start.\nBut without consistency you'll never finish."
+        }
+        originator="Denzel Washington"
       />
       <FeaturesComponent
         featuresList={featuresList}
