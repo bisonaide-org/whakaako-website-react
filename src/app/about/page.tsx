@@ -1,5 +1,6 @@
 import Header from "@/components/header/header";
 import backgroundImage from "../../../public/photos/04_About/background_header.jpg";
+import WhatThrivesUs from "@/components/about/whatThrivesUs";
 
 const About = () => {
   return (
@@ -14,6 +15,7 @@ const About = () => {
         opportunities, and connecting skilled individuals with companies
         hungry for their expertise."
       />
+      <WhatThrivesUs/>
     </>
   );
 };
