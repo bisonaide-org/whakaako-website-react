@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const InspireTomorrow = () => {
   return (
-    <div className=" relative h-full min-h-screen">
+    <section className=" relative h-full min-h-screen">
       <div
         className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
         style={{
@@ -16,8 +16,8 @@ const InspireTomorrow = () => {
         className="absolute inset-0"
         style={{ backgroundColor: "rgba(47, 61, 86, 0.75)" }}
       ></div>
-      <div className="relative z-10 min-h-screen max-w-5xl px-5 flex flex-col justify-center items-center md:px-0  mx-auto ">
-        <div className="flex flex-col items-center md:flex-row md:items-start gap-16">
+      <div className="relative z-10 min-h-screen max-w-5xl px-5 py-16 flex flex-col justify-center items-center lg:px-0  mx-auto ">
+        <div className="flex flex-col items-center lg:flex-row lg:items-start gap-16">
           <Image
             src={inspireTomorrow.src}
             alt="a man standing- inspire tomorros's leaders"
@@ -25,8 +25,8 @@ const InspireTomorrow = () => {
             height={295}
             className="rounded"
           />
-          <div className="flex flex-col items-center md:items-start text-p text-white max-w-xl">
-            <h2 className=" text-center text-display2 font-display pb-6 md:text-start">
+          <div className="flex flex-col items-center lg:items-start text-p text-white max-w-xl">
+            <h2 className=" text-center text-display2 font-display pb-6 lg:text-start">
               Inspire Tomorrow&apos;s Tech Leaders
             </h2>
             <p className=" pb-6">Become a volunteer!</p>
@@ -46,7 +46,7 @@ const InspireTomorrow = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
