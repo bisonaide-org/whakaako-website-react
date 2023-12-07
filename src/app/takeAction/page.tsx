@@ -2,6 +2,7 @@ import Header from "@/components/header/header";
 import backgroundImage from "../../../public/photos/06_TakeAction/header_background.jpg";
 import InspireTomorrow from "@/components/takeAction/inspireTomorrow";
 import Volunteering from "@/components/takeAction/volunteering";
+import PartnerWithUs from "@/components/takeAction/partnerWithUs";
 
 const TakeAction = () => {
   return (
@@ -13,6 +14,7 @@ const TakeAction = () => {
       />
       <InspireTomorrow />
       <Volunteering />
+      <PartnerWithUs />
     </>
   );
 };
