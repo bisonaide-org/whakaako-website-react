@@ -8,7 +8,7 @@ const WhatThrivesUs: React.FC = () => {
     <div className="flex flex-col gap-20 items-center text-grayBodtText px-5 pt-16 pb-14 md:px-5">
       <div className="flex items-center w-full max-w-5xl">
         <div className="flex-none justify-center lg:ml-10">
-          <Image src={threeGrennArrow} width={150} alt="threeGrennArrow" />
+          <Image src={threeGrennArrow} width={150} alt="threeGrennArrow"/>
         </div>
         <div className="flex grow justify-center lg:pr-40 md:pr-14">
               <h2 className="text-display2 font-display">What thrives us?</h2>
@@ -28,7 +28,7 @@ const WhatThrivesUs: React.FC = () => {
 
         <Image src={obstacle} width={280} height={280} alt="obstacle" />
       </div>
-      <hr className=" mt- w-20 h-1 bg-grayBodtText mx-auto rounded" />
+      <hr className=" mb-10 w-20 h-1 bg-grayBodtText mx-auto rounded" />
     </div>
   );
 };
