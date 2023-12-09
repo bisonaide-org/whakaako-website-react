@@ -2,6 +2,7 @@ import Header from "@/components/header/header";
 import backgroundImage from "../../../public/photos/04_About/background_header.jpg";
 import WhatThrivesUs from "@/components/about/whatThrivesUs";
 import TheTeam from "@/components/about/theTeam";
+import OurStory from "@/components/about/ourStory";
 
 const About = () => {
   return (
@@ -18,6 +19,7 @@ const About = () => {
       />
       <WhatThrivesUs/>
       <TheTeam/>
+      <OurStory/>
     </>
   );
 };
