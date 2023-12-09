@@ -1,5 +1,4 @@
 import Image from "next/image";
-import profileImage from "../../../public/photos/01_landingPage/photos/dr.neelam.png";
 import threeGrennArrow from "../../../public/photos/04_About/flashes.png";
 import obstacle from "../../../public/photos/04_About/obstacles_with_runner.png";
 

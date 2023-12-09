@@ -1,7 +1,5 @@
 import Image from "next/image";
-import profileImage from "../../../public/photos/01_landingPage/photos/dr.neelam.png";
-import threeGrennArrow from "../../../public/photos/04_About/flashes.png";
-import obstacle from "../../../public/photos/04_About/Stefan_2.png";
+import Stefan from "../../../public/photos/04_About/Stefan_2.png";
 
 const OurStory: React.FC = () => {
   return (
@@ -22,7 +20,7 @@ const OurStory: React.FC = () => {
       </div>
 
       <div className="flex flex-col md:flex-row items-center gap-7 max-w-5xl">
-        <Image src={obstacle} width={300} height={280} alt="obstacle" />
+        <Image src={Stefan} width={300} height={280} alt="obstacle" />
         <div className="flex flex-col text-p gap-2">
           <p>
             Let&apos;s dive into our story! It all started when three friends joined
