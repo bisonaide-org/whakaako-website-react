@@ -10,8 +10,8 @@ interface Team {
 const TheTeam: React.FC = () => {
   return (
     <div
-      className="flex flex-col justify-center items-center text-grayBodtText px-2 pt-8 pb-32 md:px-0 mt-10 mb-10"
-      style={{ backgroundColor: "#f2f3f7" }}
+      className="flex flex-col justify-center items-center text-grayBodtText px-2 pt-8 pb-32 md:px-0 mt-10 mb-10 bg-lightGrayBackground"
+     
     >
       <div>
         <div className="text-center">
