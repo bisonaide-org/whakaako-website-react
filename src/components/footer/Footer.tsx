@@ -32,7 +32,7 @@ const Footer: React.FC = () => {
                 />
               </Link>
             </div>
-            <div className="ml-20 mt-9 text-white">
+            <div className="lg:ml-20 mt-9 text-white">
               <Link href="https://maps.app.goo.gl/dgMiVvFNm8X3vWY8A">
                 <p>Adress:</p>
                 <p>bisonaide gGmbH</p>
