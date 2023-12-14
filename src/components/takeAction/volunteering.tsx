@@ -33,10 +33,6 @@ const Volunteering = () => {
               Someone who volunteers may not get paid, but they get so much
               more.
             </p>
-            <p className="pt-9">
-              Someone who volunteers may not get paid, but they get so much
-              more.
-            </p>
             <p className=" pb-6">
               And above all, the feeling of being able to contribute to a better
               future for young people.
@@ -45,7 +41,7 @@ const Volunteering = () => {
               href="https://tally.so/r/mVPeyN"
               className="px-4 py-2 text-sm font-semibold font-display rounded-lg border-2 border-cyan hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
             >
-              Get started
+              volunteer
             </Link>
           </div>
           <Image
