@@ -31,11 +31,13 @@ const InspireTomorrow = () => {
             </h2>
             <p className=" pb-6">Become a volunteer!</p>
             <hr className=" mt-3 w-20 h-1 bg-white rounded" />
-            <p className=" pt-6 pb-12">
+            <p className=" pt-6 pb-2 ">
               Be a part of our team and inspire the next generation of IT
               professionals. Your expertise can transform lives, closing the
-              skills gap and empowering students for a brighter future. Join us
-              in shaping the tech leaders of tomorrow!
+              skills gap and empowering students for a brighter future.
+            </p>
+            <p className="pb-12">
+              Join us in shaping the tech leaders of tomorrow!
             </p>
             <Link
               href="https://tally.so/r/mVPeyN"

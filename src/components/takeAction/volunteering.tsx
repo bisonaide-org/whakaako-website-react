@@ -33,7 +33,11 @@ const Volunteering = () => {
               Someone who volunteers may not get paid, but they get so much
               more.
             </p>
-            <p className=" pb-6">
+            <p>
+              New encounters. International contacts. Challenges. Impulses that
+              widen your own horizons.
+            </p>
+            <p className=" pt-9 pb-6">
               And above all, the feeling of being able to contribute to a better
               future for young people.
             </p>
