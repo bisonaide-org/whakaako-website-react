@@ -40,8 +40,7 @@ const checkOutOfferings: CheckOutOffering[] = [
   {
     iconPath: "/photos/01_landingPage/check-out/g160.png",
     flashGreenIcon: "/photos/01_landingPage/check-out/g175.png",
-    link: "#",
-    /* When the "Take Action" page is ready */
+    link: "/takeaction",
     text: "Engage in our mission",
     width: 79,
     height: 79,
