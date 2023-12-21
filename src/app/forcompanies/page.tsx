@@ -5,6 +5,8 @@ import AskForARemoteAssistantForm from "@/components/forCompaniesPage/askForARem
 import FeaturesComponent from "@/components/featuresComponent/featuresComponent";
 import BgImage from "../../../public/photos/03_ForCompanies/bg-people.jpg";
 import { FeaturesItem } from "@/components/featuresComponent/types";
+import Faq from "@/components/faq/faq";
+import { forCompaniesQuestions } from "./../../helper/faqData";
 
 const featuresList: FeaturesItem[] = [
   {
@@ -59,6 +61,7 @@ const ForCompanies = () => {
       />
 
       <AskForARemoteAssistantForm />
+      <Faq data={forCompaniesQuestions} />
     </>
   );
 };
