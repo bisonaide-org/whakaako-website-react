@@ -1,5 +1,5 @@
 import Image from "next/image";
-import flashGreenIcon from "../../../../../public/photos/Shared_Icons/flashGreenIcon.svg";
+import flashGreenIcon from "../../../public/photos/Shared_Icons/flashGreenIcon.svg";
 
 interface Props {
   question: string;
@@ -23,10 +23,19 @@ const Card: React.FC<Props> = ({
       {answer && <p className=" text-small pl-10 md:pl-20 pb-5">{answer}</p>}
       {answerDetails && (
         <div className="text-small">
-          <ol className=" list-decimal pl-16 md:pl-28">
-            {answerDetails.criterias.map((criteria: string, i: number) => (
-              <li key={i}>{criteria}</li>
-            ))}
+          <ol className=" list-disc pl-16 md:pl-28">
+            {answerDetails?.criterias.map((criteria: string, i: number) =>
+              answerDetails.boldWords ? (
+                <li key={i}>
+                  <span style={{ fontWeight: "bold" }}>
+                    {answerDetails?.boldWords[i]}
+                  </span>
+                  {criteria}
+                </li>
+              ) : (
+                <li key={i}>{criteria}</li>
+              )
+            )}
           </ol>
           <p className="pl-10 md:pl-20 pt-5">{answerDetails.last}</p>
         </div>

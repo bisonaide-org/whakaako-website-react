@@ -3,18 +3,19 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-import { FeaturesItem } from './types';
-
+import { FeaturesItem } from "./types";
 
 interface FeaturesProps {
   featuresList: FeaturesItem[];
   bgImage: string;
+  startingAt?: boolean;
   headerText: string;
   isButtonInclude?: boolean;
 }
 
 const FeaturesComponent: React.FC<FeaturesProps> = ({
   featuresList,
+  startingAt,
   bgImage,
   headerText,
   isButtonInclude,
@@ -25,15 +26,24 @@ const FeaturesComponent: React.FC<FeaturesProps> = ({
   };
 
   return (
-    <section className="relative text-white">
+    <section className="relative text-white min-h-screen">
       <div
         className="absolute inset-0 z-0  bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: `url(${bgImage})` }}
       ></div>
+
       <div
         className="absolute inset-0"
         style={{ backgroundColor: "rgba(47, 61, 86, 0.75)" }}
       ></div>
+      {startingAt && (
+        <div
+          className="absolute top-4 -right-2 text-center text-quote sm:top-10 sm:right-2 md:top-10 md:right-0 p-4
+         font-display text-yellowGreen font-bold transform rotate-45 tracking-wider md:text-display2"
+        >
+          Starting at <br /> 7€/h
+        </div>
+      )}
       <div className="relative z-10 flex flex-col items-center mx-5 py-10 md:mx-auto md:py-20">
         <h2 className="text-center text-display2 font-display mb-12">
           {headerText}

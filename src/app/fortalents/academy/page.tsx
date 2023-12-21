@@ -3,10 +3,11 @@ import React from "react";
 import backgroundImage from "../../../../public/photos/02_ForTalents/AcademyPhotos/background_header.jpg";
 import Quote from "@/components/quote/quote";
 import CourseFinder from "@/components/forTalents/academyPage/courseFinder/courseFinder";
-import Faq from "@/components/forTalents/academyPage/faq/faq";
+import Faq from "@/components/faq/faq";
 import FeaturesComponent from "@/components/featuresComponent/featuresComponent";
 import academyImage from "../../../../public/photos/02_ForTalents/AcademyPhotos/background_academy_features.jpg";
 import { FeaturesItem } from "./../../../components/featuresComponent/types";
+import { academyQuestions } from "./../../../helper/faqData";
 
 const featuresList: FeaturesItem[] = [
   {
@@ -61,7 +62,7 @@ const Academy: React.FC = () => {
         headerText={"ACADEMY features"}
         isButtonInclude={true}
       />
-      <Faq />
+      <Faq data={academyQuestions} />
       <CourseFinder />
     </>
   );
