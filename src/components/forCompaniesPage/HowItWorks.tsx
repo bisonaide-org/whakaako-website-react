@@ -38,7 +38,7 @@ const checkOutOfferings: CheckOutOffering[] = [
 
 const CheckOut = () => {
   return (
-    <section className="relative text-white ">
+    <section id="Howitworks" className="relative text-white ">
       <div className="relative z-10 flex flex-col items-center mx-5 md:mx-auto md:py-20 max-w-5xl">
         <div>
           <div className="text-center">

@@ -16,7 +16,7 @@ const featuresList: FeaturesItem[] = [
     flashGreenIcon: "/photos/Shared_Icons/flashGreenIcon.svg",
     link: true,
     linkText: "Let us hand-pick you the perfect match",
-    linkPath: "/", // Jump to "How it works"
+    linkPath: "#Howitworks",
   },
   {
     iconPath: "/photos/03_ForCompanies/2_line.png",
@@ -25,7 +25,7 @@ const featuresList: FeaturesItem[] = [
     flashGreenIcon: "/photos/Shared_Icons/flashGreenIcon.svg",
     link: true,
     linkText: "Get in touch with us",
-    linkPath: "/", // Opens contact form
+    linkPath: "#Howitworks", // Opens contact form
   },
   {
     iconPath: "/photos/03_ForCompanies/3_line.png",
@@ -34,7 +34,7 @@ const featuresList: FeaturesItem[] = [
     flashGreenIcon: "/photos/Shared_Icons/flashGreenIcon.svg",
     link: true,
     linkText: "Get in touch with us",
-    linkPath: "/", // Opens contact form
+    linkPath: "#Howitworks", // Opens contact form
   },
 ];
 

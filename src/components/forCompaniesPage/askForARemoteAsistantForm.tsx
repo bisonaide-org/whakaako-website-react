@@ -9,7 +9,7 @@ function AskForARemoteAssistantForm() {
   return (
     <>
       <HowItWorks />
-      <div className="relative z-10 py-16 max-w-md mx-auto">
+      <div id="#Howitworks" className="relative z-10 py-16 max-w-md mx-auto">
         <iframe
           data-tally-src="https://tally.so/embed/npoEZE?alignLeft=1&dynamicHeight=1"
           loading="lazy"
