@@ -1,6 +1,7 @@
 import Header from "@/components/header/header";
 import backgroundImage from "../../../../public/photos/02_ForTalents/JoinTheCommunityPhotos/background_header.jpg";
 import CommunityApplicationForm from "@/components/forTalents/joinTheCommunityPage/communityAplicationForm";
+import Paragraph from "@/components/forTalents/joinTheCommunityPage/Paragraph";
 
 const JoinTheCommunity = () => {
   return (
@@ -15,6 +16,7 @@ const JoinTheCommunity = () => {
         "
         playTitle="The Oakyard COMMUNITY"
       />
+      <Paragraph/>
       <CommunityApplicationForm />
     </>
   );
