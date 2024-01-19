@@ -6,7 +6,7 @@ import footerBgImage from "../../../public/photos/05_Footer/Footer_bg_image.jpg"
 
 const Footer: React.FC = () => {
   return (
-    <footer className="flex flex-col justify-center items-center text-grayBodtText px-5 pt-16 pb-14 md:px-0 ">
+    <footer className="flex flex-col justify-center items-center text-grayBodtText md:px-0 ">
       <div className=" relative w-full pb-48">
         <div
           className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
