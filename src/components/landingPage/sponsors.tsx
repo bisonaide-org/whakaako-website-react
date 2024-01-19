@@ -46,7 +46,6 @@ const Sponsors: React.FC = () => {
         <div className="text-center">
           <h2 className="text-display2 font-display pb-9">Sponsors</h2>
         </div>
-
         <div className="text-center pb-9">
           <p className="pb-9">
             We are thankful for everyone who helps us with finances,
@@ -56,7 +55,6 @@ const Sponsors: React.FC = () => {
           <hr className="w-20 h-1 bg-grayBodtText mx-auto rounded" />
         </div>
       </div>
-
       <div
         className="text-center grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 
       gap-14 mx-auto"
@@ -80,7 +78,7 @@ const Sponsors: React.FC = () => {
       <div className="mt-28 ">
         <Link href="/takeaction">
           <button className="text-white bg-magenta px-4 py-2 text-sm font-semibold rounded-lg hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline">
-            Support Us
+            support us
           </button>
         </Link>
       </div>
