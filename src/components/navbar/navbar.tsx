@@ -107,13 +107,11 @@ function NavBar() {
               </div>
             ))}
           </div>
-
-          <button
-            className="font-display text-white bg-magenta px-5 py-2 text-sm font-semibold rounded-lg hover:text-gray-900 hover:bg-gray-200"
-            onClick={() => handleActiveSubMenu(-1)}
-          >
-            <span>support us</span>
-          </button>
+          <Link href="/takeaction">
+            <button className="text-white bg-magenta px-4 py-2 text-sm font-semibold rounded-lg hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline">
+              support us
+            </button>
+          </Link>
         </div>
       </nav>
     </div>
