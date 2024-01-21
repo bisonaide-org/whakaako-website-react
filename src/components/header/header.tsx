@@ -63,8 +63,6 @@ const Header: React.FC<Props> = ({
               </div>
             </div>
           )}
-
-          {/* Jump to How It Works component when it is ready */}
         </div>
         {isButton && (
           <div className="text-center mt-20">
