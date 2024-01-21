@@ -32,7 +32,7 @@ const Header: React.FC<Props> = ({
         className="absolute inset-0"
         style={{ backgroundColor: "rgba(47, 61, 86, 0.75)" }}
       ></div>
-      <div className="relative z-10 min-h-screen max-w-5xl flex flex-col justify-center px-5 md:p-14  mx-auto ">
+      <div className="relative z-10 min-h-screen max-w-5xl flex flex-col justify-center px-5 md:p-14 mx-auto ">
         <div className="flex items-center gap-5">
           <Image
             className="hidden md:block"
@@ -41,7 +41,7 @@ const Header: React.FC<Props> = ({
             width={150}
             height={150}
           />
-          <h1 className=" font-display text-yellowGreen text-5xl md:text-7xl mb-6">
+          <h1 className=" font-display text-yellowGreen text-5xl md:text-7xl mb-6 mt-10">
             {heading}
           </h1>
         </div>
@@ -63,18 +63,17 @@ const Header: React.FC<Props> = ({
               </div>
             </div>
           )}
-          {isButton && (
-            <div className="text-center">
-              <Link
-                href="#"
-                className="px-4 py-2 text-sm font-semibold font-display rounded-lg border-2 border-cyan hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
-              >
-                Get started
-              </Link>
-            </div>
-          )}
-          {/* Jump to How It Works component when it is ready */}
         </div>
+        {isButton && (
+          <div className="text-center mt-20">
+            <Link
+              href="#Howitworks"
+              className="px-4 py-2 text-sm font-semibold font-display rounded-lg border-2 text-white border-cyan hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+            >
+              Get started
+            </Link>
+          </div>
+        )}
       </div>
     </div>
   );
