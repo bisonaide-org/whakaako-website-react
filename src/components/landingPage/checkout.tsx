@@ -15,7 +15,7 @@ const checkOutOfferings: CheckOutOffering[] = [
   {
     iconPath: "/photos/01_landingPage/check-out/g172.png",
     flashGreenIcon: "/photos/01_landingPage/check-out/g178.png",
-    link: "/forcompanies",
+    link: "/forcompanies/findyourtalent",
     text: "Companies",
     width: 70,
     height: 70,

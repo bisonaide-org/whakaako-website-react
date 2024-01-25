@@ -1,12 +1,12 @@
 import Header from "@/components/header/header";
-import backgroundImage from "../../../public/photos/03_ForCompanies/background_header.jpg";
+import backgroundImage from "../../../../public/photos/03_ForCompanies/background_header.jpg";
 import Quote from "@/components/quote/quote";
 import AskForARemoteAssistantForm from "@/components/forCompaniesPage/askForARemoteAsistantForm";
 import FeaturesComponent from "@/components/featuresComponent/featuresComponent";
-import BgImage from "../../../public/photos/03_ForCompanies/bg-people.jpg";
+import BgImage from "../../../../public/photos/03_ForCompanies/bg-people.jpg";
 import { FeaturesItem } from "@/components/featuresComponent/types";
 import Faq from "@/components/faq/faq";
-import { forCompaniesQuestions } from "./../../helper/faqData";
+import { forCompaniesQuestions } from "../../../helper/faqData";
 
 const featuresList: FeaturesItem[] = [
   {
