@@ -7,7 +7,7 @@ import Faq from "@/components/faq/faq";
 import FeaturesComponent from "@/components/featuresComponent/featuresComponent";
 import academyImage from "../../../../public/photos/02_ForTalents/AcademyPhotos/background_academy_features.jpg";
 import { FeaturesItem } from "./../../../components/featuresComponent/types";
-import { academyQuestions } from "./../../../helper/faqData";
+import { academyQuestions } from "./../../../helper/academy/faq";
 
 const featuresList: FeaturesItem[] = [
   {
