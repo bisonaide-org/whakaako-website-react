@@ -14,7 +14,7 @@ const Paragraph = () => {
             src={checkList}
             width={70}
             height={100}
-            alt=""
+            alt="checklist-icon"
           />
           <div className="flex flex-col text-p gap-2">
             <p>
@@ -28,7 +28,13 @@ const Paragraph = () => {
           </div>
         </div>
         <div className="flex flex-col md:flex-row items-center gap-7 pb-12">
-          <Image className="py-4" src={form} width={70} height={100} alt="" />
+          <Image
+            className="py-4"
+            src={form}
+            width={70}
+            height={100}
+            alt="form-icon"
+          />
           <div className="flex flex-col text-p gap-2">
             <p>
               To make your application as smooth as possible, we recommend
@@ -44,7 +50,7 @@ const Paragraph = () => {
             src={phone}
             width={70}
             height={100}
-            alt="phone"
+            alt="phone-icon"
           />
           <div className="flex flex-col text-p gap-2">
             <p>
