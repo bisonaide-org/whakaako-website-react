@@ -31,7 +31,7 @@ const navlist = [
       { navName: "Find Your Talent", to: "/forcompanies/findyourtalent" },
       {
         navName: "Trainings & Projects",
-        to: "#", //TODO: link /forcompanies/trainingsandprojects when page is ready
+        to: "/forcompanies/trainingsandprojects",
       },
     ],
   },
