@@ -73,9 +73,9 @@ const CheckOut = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
           {checkOutOfferings.map((item, index) => (
-            <div key={index} className={`flex flex-col items-center gap-4 p-4`}>
-              <div className="relative flex flex-col place-items-end">
-                <div className="flex flex-col items-center">
+            <div key={index} className="flex flex-col gap-4 p-4">
+              <div className="relative flex flex-col">
+                <div className="flex flex-col">
                   <Link
                     href={item.link}
                     className="flex items-center text-white"
