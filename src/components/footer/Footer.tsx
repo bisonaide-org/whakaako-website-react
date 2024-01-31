@@ -21,7 +21,7 @@ const Footer: React.FC = () => {
         <div className="mt-10 ml-10 relative z-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-15  text-white">
           <div>
             <div className="h-100">
-              <Link href="https://www.oakyard.org">
+              <Link href="/">
                 {/* When the domain name is clarified, it will be arranged again. */}
                 <Image
                   src={oakyardLogo}
