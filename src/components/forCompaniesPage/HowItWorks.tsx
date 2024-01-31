@@ -8,12 +8,12 @@ interface HowItWorksProps {
 const HowItWorks: React.FC<HowItWorksProps> = ({ howItWorksData }) => {
   return (
     <section id="Howitworks" className="py-16">
-      <div className=" max-w-4xl mx-auto px-5 md:px-0">
+      <div className=" max-w-4xl mx-auto px-5">
         <h2 className="text-display1 font-display text-grayBodtText text-center pb-14">
           How it works
         </h2>
         <div className="flex flex-col md:flex-row gap-7">
-          {howItWorksData.map((item, index) => (
+          {howItWorksData.map((item) => (
             <div
               key={item.heading}
               className="flex flex-col items-center gap-4 md:items-start md:flex-row md:flex-1 "
