@@ -109,7 +109,7 @@ const CheckOut = () => {
             We create what <br /> companies need. <br /> Talents!
           </h2>
           <Link
-            href="/forcompanies"
+            href="/forcompanies/findyourtalent"
             className="px-4 py-2 mb-7 text-sm font-semibold font-display rounded-lg border-2 border-cyan hover:text-gray-900 hover:bg-gray-200 focus:text-gray-900 focus:bg-transparent focus:outline-none focus:shadow-outline"
           >
             get started
