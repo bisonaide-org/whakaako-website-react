@@ -59,7 +59,7 @@ const CourseFinder = () => {
             </p>
           </div>
         </div>
-        <div className="flex justify-center md:justify-between flex-wrap mb-24">
+        <div className="flex justify-center md:justify-between flex-wrap gap-y-5 mb-24">
           {courseCategories.map((category) => (
             <Card
               key={category.title}
