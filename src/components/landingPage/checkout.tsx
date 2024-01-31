@@ -73,9 +73,9 @@ const CheckOut = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
           {checkOutOfferings.map((item, index) => (
-            <div key={index} className={`flex flex-col items-center gap-4 p-4`}>
-              <div className="relative flex flex-col place-items-end">
-                <div className="flex flex-col items-center">
+            <div key={index} className="flex flex-col gap-4 p-4">
+              <div className="relative flex flex-col">
+                <div className="flex flex-col">
                   <Link
                     href={item.link}
                     className="flex items-center text-white"
@@ -109,7 +109,7 @@ const CheckOut = () => {
             We create what <br /> companies need. <br /> Talents!
           </h2>
           <Link
-            href="/forcompanies"
+            href="/forcompanies/findyourtalent"
             className="px-4 py-2 mb-7 text-sm font-semibold font-display rounded-lg border-2 border-cyan hover:text-gray-900 hover:bg-gray-200 focus:text-gray-900 focus:bg-transparent focus:outline-none focus:shadow-outline"
           >
             get started
