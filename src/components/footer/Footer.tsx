@@ -22,7 +22,6 @@ const Footer: React.FC = () => {
           <div>
             <div className="h-100">
               <Link href="/">
-                {/* When the domain name is clarified, it will be arranged again. */}
                 <Image
                   src={oakyardLogo}
                   alt="profile"
