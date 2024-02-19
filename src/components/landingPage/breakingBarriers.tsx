@@ -1,6 +1,6 @@
 import Image from "next/image";
-import image1 from "../../../public/photos/01_landingPage/photos/breaking_barriers_1.jpg";
-import image2 from "../../../public/photos/01_landingPage/photos/breaking_barriers_2.jpg";
+import image1 from "../../../public/photos/01_landingPage/breaking-barriers/Breaking_Barriers_1.jpg";
+import image2 from "../../../public/photos/01_landingPage/breaking-barriers/Breaking_Barriers_2.jpg";
 import Link from "next/link";
 
 const BreakingBarriers = () => {

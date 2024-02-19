@@ -12,25 +12,25 @@ interface Sponsor {
 const Sponsors: React.FC = () => {
   const sponsorImages: Sponsor[] = [
     {
-      path: "/photos/01_landingPage/photos/sponsors/bisonaire.png",
+      path: "/photos/01_landingPage/sponsors/Bisonaire.png",
       alt: "bisonaire",
       width: 850,
       height: 600,
     },
     {
-      path: "/photos/01_landingPage/photos/sponsors/Peak.png",
+      path: "/photos/01_landingPage/sponsors/Peak.png",
       alt: "Peak",
       width: 60,
       height: 40,
     },
     {
-      path: "/photos/01_landingPage/photos/sponsors/Logo Schwarz.png",
+      path: "/photos/01_landingPage/sponsors/Logo_Schwarz.png",
       alt: "Schwarz",
       width: 180,
       height: 120,
     },
     {
-      path: "/photos/01_landingPage/photos/sponsors/Bild-Labdoo.png",
+      path: "/photos/01_landingPage/sponsors/Bild_Labdoo.png",
       alt: "Labdoo",
       width: 140,
       height: 90,

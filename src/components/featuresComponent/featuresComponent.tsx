@@ -58,8 +58,8 @@ const FeaturesComponent: React.FC<FeaturesProps> = ({
                 <Image
                   src={item.iconPath}
                   alt="section icon"
-                  width={90}
-                  height={90}
+                  width={100}
+                  height={100}
                 />
               </div>
               <div className=" max-w-lg">

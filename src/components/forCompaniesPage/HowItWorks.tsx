@@ -19,7 +19,7 @@ const HowItWorks: React.FC<HowItWorksProps> = ({ howItWorksData }) => {
               className="flex flex-col items-center gap-4 md:items-start md:flex-row md:flex-1 "
             >
               <Image
-                className=" pt-10"
+                className="mt-10"
                 src={item.icon}
                 alt={item.iconName}
                 width={70}
