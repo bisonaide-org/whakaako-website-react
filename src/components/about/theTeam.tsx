@@ -9,10 +9,7 @@ interface Team {
 
 const TheTeam: React.FC = () => {
   return (
-    <div
-      className="flex flex-col justify-center items-center text-grayBodtText px-2 pt-8 pb-32 md:px-0 mt-10 mb-10 bg-lightGrayBackground"
-     
-    >
+    <div className="flex flex-col justify-center items-center text-grayBodtText px-2 pt-8 pb-32 md:px-0 mt-10 mb-10 bg-lightGrayBackground">
       <div>
         <div className="text-center">
           <h2 className="text-display2 font-display pb-2">The Team</h2>
@@ -27,10 +24,7 @@ const TheTeam: React.FC = () => {
 
       <div className="flex flex-wrap justify-center max-w-xl">
         {teamImages.map((person: Team, index: number) => (
-          <div
-            key={index}
-            className="w-1/2 sm:w-1/2 md:w-1/3 lg:w-1/3 p-2"
-          >
+          <div key={index} className="w-1/2 sm:w-1/2 md:w-1/3 lg:w-1/3 p-2">
             <Image
               src={person.path}
               alt={person.alt}

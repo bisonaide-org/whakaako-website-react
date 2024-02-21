@@ -1,6 +1,6 @@
 import Image from "next/image";
-import image1 from "../../../public/photos/01_landingPage/photos/breaking_barriers_1.jpg";
-import image2 from "../../../public/photos/01_landingPage/photos/breaking_barriers_2.jpg";
+import image1 from "../../../public/photos/01_landingPage/breaking-barriers/Breaking_Barriers_1.jpg";
+import image2 from "../../../public/photos/01_landingPage/breaking-barriers/Breaking_Barriers_2.jpg";
 import Link from "next/link";
 
 const BreakingBarriers = () => {
@@ -41,14 +41,14 @@ const BreakingBarriers = () => {
       </div>
       <div className="flex flex-col md:flex-row gap-3 ">
         <Image
-          style={{ borderRadius: "20px" }}
+          className="rounded-xl"
           src={image1}
           alt="people attending a lesson"
           width={370}
           height={246}
         />
         <Image
-          style={{ borderRadius: "20px" }}
+          className="rounded-xl"
           src={image2}
           alt="people attending a lesson"
           width={370}

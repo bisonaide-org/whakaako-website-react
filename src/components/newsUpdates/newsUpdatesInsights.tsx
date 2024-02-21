@@ -1,8 +1,8 @@
 import Image from "next/image";
 import React from "react";
-import cardImage1 from "../../../public/photos/01_landingPage/news-updates/In-the-news.jpg";
+import cardImage1 from "../../../public/photos/01_landingPage/news-updates/In-The-News.jpg";
 import cardImage2 from "../../../public/photos/01_landingPage/news-updates/Romania.jpg";
-import cardImage3 from "../../../public/photos/01_landingPage/news-updates/aI-in-education.jpg";
+import cardImage3 from "../../../public/photos/01_landingPage/news-updates/All-In-Education.jpg";
 import NewsCard from "./newsCard";
 
 const newsUpdatesInsights = () => {
@@ -16,8 +16,8 @@ const newsUpdatesInsights = () => {
         </div>
         <div className=" text-center pb-9">
           <p className=" pb-9">
-            You can&apos;t change the world in one day but the world changes every
-            day.
+            You can&apos;t change the world in one day but the world changes
+            every day.
           </p>
           <hr className=" w-20 h-1 bg-grayBodtText mx-auto rounded " />
         </div>

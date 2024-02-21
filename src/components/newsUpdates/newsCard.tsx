@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import arrowIcon from "../../../public/photos/01_landingPage/news-updates/flashGreenIcon-v.svg";
+import arrowIcon from "/public/photos/Shared_Icons/1_landingPage/down_arrow_green.svg";
 import { useState } from "react";
 
 interface Props {
@@ -31,6 +31,7 @@ const NewsCard = (props: Props) => {
             alt="card image"
             fill
             priority
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
           />
         </div>
         <h3 className="text-xl pt-2">{props.title}</h3>
@@ -54,22 +55,11 @@ const NewsCard = (props: Props) => {
           onClick={toggleContent}
           className=" cursor-pointer flex items-center"
         >
-          <Image
-            width={50}
-            height={50}
-            src={arrowIcon} 
-            alt={"arrow-icon"}
-        
-          />
+          <Image width={50} height={50} src={arrowIcon} alt={"arrow-icon"} />
         </button>
       ) : (
         <button onClick={openPdf} className=" cursor-pointer flex items-center">
-          <Image
-            width={50}
-            height={50}
-            src={arrowIcon} 
-            alt={"arrow-icon"}
-          />
+          <Image width={50} height={50} src={arrowIcon} alt={"arrow-icon"} />
         </button>
       )}
     </div>

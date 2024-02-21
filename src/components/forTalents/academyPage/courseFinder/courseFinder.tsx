@@ -1,7 +1,7 @@
 import Card from "./card";
-import newbieImage from "../../../../../public/photos/02_ForTalents/Icons/newbie.png";
-import skilledImage from "../../../../../public/photos/02_ForTalents/Icons/skilled.png";
-import expertImage from "../../../../../public/photos/02_ForTalents/Icons/expert.png";
+import newbieImage from "../../../../../public/photos/Shared_Icons/4_academy/newbie.png";
+import skilledImage from "../../../../../public/photos/Shared_Icons/4_academy/skilled.png";
+import expertImage from "../../../../../public/photos/Shared_Icons/4_academy/expert.png";
 import backgroundImage from "../../../../../public/photos/02_ForTalents/AcademyPhotos/background_courseFinder.jpg";
 
 const courseCategories = [
