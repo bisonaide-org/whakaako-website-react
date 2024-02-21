@@ -1,5 +1,5 @@
 import Image from "next/image";
-import profileImage from "../../../public/photos/01_landingPage/photos/dr.neelam.png";
+import profileImage from "../../../public/photos/01_landingPage/Dr.Neelam.png";
 
 const Footer: React.FC = () => {
   return (

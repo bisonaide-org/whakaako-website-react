@@ -1,7 +1,7 @@
 import React from "react";
-import checkList from "../../../../public/photos/02_ForTalents/JoinTheCommunityPhotos/checkList.png";
-import form from "../../../../public/photos/02_ForTalents/JoinTheCommunityPhotos/form.png";
-import phone from "../../../../public/photos/02_ForTalents/JoinTheCommunityPhotos/phone.png";
+import checkList from "../../../../public/photos/Shared_Icons/3_joint_the_community/1.svg";
+import form from "../../../../public/photos/Shared_Icons/3_joint_the_community/2.svg";
+import phone from "../../../../public/photos/Shared_Icons/3_joint_the_community/3.svg";
 import Image from "next/image";
 
 const Paragraph = () => {
@@ -12,7 +12,7 @@ const Paragraph = () => {
           <Image
             className="py-4"
             src={checkList}
-            width={70}
+            width={95}
             height={100}
             alt="checklist-icon"
           />
@@ -31,7 +31,7 @@ const Paragraph = () => {
           <Image
             className="py-4"
             src={form}
-            width={70}
+            width={90}
             height={100}
             alt="form-icon"
           />
@@ -48,7 +48,7 @@ const Paragraph = () => {
           <Image
             className="py-4"
             src={phone}
-            width={70}
+            width={90}
             height={100}
             alt="phone-icon"
           />

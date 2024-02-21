@@ -1,6 +1,6 @@
 import Image from "next/image";
 import iconOakyardOnDark from "../../../public/photos/logos/Icon_Oakyard_on_dark.svg";
-import playIcon from "../../../public/photos/Shared_Icons/play.svg";
+import playIcon from "../../../public/photos/Shared_Icons/1_landingPage/play_button_green.svg";
 import Link from "next/link";
 
 interface Props {

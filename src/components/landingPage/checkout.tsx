@@ -1,5 +1,5 @@
 import Image from "next/image";
-import backgroundImage from "/public/photos/01_landingPage/check-out/bg-checkout.jpeg";
+import backgroundImage from "/public/photos/01_landingPage/check-out/Bg-Checkout.jpeg";
 import Link from "next/link";
 
 interface CheckOutOffering {
@@ -13,36 +13,36 @@ interface CheckOutOffering {
 
 const checkOutOfferings: CheckOutOffering[] = [
   {
-    iconPath: "/photos/01_landingPage/check-out/g172.png",
-    flashGreenIcon: "/photos/01_landingPage/check-out/g178.png",
+    iconPath: "/photos/Shared_Icons/1_landingPage/fist_white.svg",
+    flashGreenIcon: "/photos/Shared_Icons/1_landingPage/arrow_green.svg",
     link: "/forcompanies/findyourtalent",
     text: "Companies",
-    width: 70,
-    height: 70,
+    width: 90,
+    height: 90,
   },
   {
-    iconPath: "/photos/01_landingPage/check-out/g145.png",
-    flashGreenIcon: "/photos/01_landingPage/check-out/g178.png",
+    iconPath: "/photos/Shared_Icons/1_landingPage/learner_white.svg",
+    flashGreenIcon: "/photos/Shared_Icons/1_landingPage/arrow_green.svg",
     link: "/fortalents/academy",
     text: "Learners",
-    width: 49,
-    height: 49,
+    width: 90,
+    height: 90,
   },
   {
-    iconPath: "/photos/01_landingPage/check-out/g151.png",
-    flashGreenIcon: "/photos/01_landingPage/check-out/g178.png",
+    iconPath: "/photos/Shared_Icons/1_landingPage/job_seeker_white.svg",
+    flashGreenIcon: "/photos/Shared_Icons/1_landingPage/arrow_green.svg",
     link: "/fortalents/jointhecommunity",
     text: "Job Seekers",
-    width: 61,
-    height: 61,
+    width: 83,
+    height: 83,
   },
   {
-    iconPath: "/photos/01_landingPage/check-out/g160.png",
-    flashGreenIcon: "/photos/01_landingPage/check-out/g175.png",
+    iconPath: "/photos/Shared_Icons/1_landingPage/our_mission_white.svg",
+    flashGreenIcon: "/photos/Shared_Icons/1_landingPage/arrow_blue.svg",
     link: "/takeaction",
     text: "Engage in our mission",
-    width: 79,
-    height: 79,
+    width: 105,
+    height: 105,
   },
 ];
 
@@ -85,18 +85,15 @@ const CheckOut = () => {
                       alt={`flashGreenIcon ${index + 1}`}
                       width={50}
                       height={50}
-                      objectFit="cover"
                     />
                     <span className="ml-2">{item.text}</span>
                   </Link>
-                  <div className="flex items-center mt-3 ml-11">
+                  <div className="flex items-center ml-11">
                     <Image
                       src={item.iconPath}
                       alt={`section icon ${index + 1}`}
                       width={item.width}
                       height={item.height}
-                      objectFit="cover"
-                      objectPosition="center"
                     />
                   </div>
                 </div>

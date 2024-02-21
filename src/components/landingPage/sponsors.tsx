@@ -12,25 +12,25 @@ interface Sponsor {
 const Sponsors: React.FC = () => {
   const sponsorImages: Sponsor[] = [
     {
-      path: "/photos/01_landingPage/photos/sponsors/bisonaire.png",
+      path: "/photos/01_landingPage/sponsors/Bisonaire.png",
       alt: "bisonaire",
       width: 850,
       height: 600,
     },
     {
-      path: "/photos/01_landingPage/photos/sponsors/Peak.png",
+      path: "/photos/01_landingPage/sponsors/Peak.png",
       alt: "Peak",
-      width: 60,
-      height: 40,
+      width: 160,
+      height: 140,
     },
     {
-      path: "/photos/01_landingPage/photos/sponsors/Logo Schwarz.png",
+      path: "/photos/01_landingPage/sponsors/Logo_Schwarz.png",
       alt: "Schwarz",
       width: 180,
       height: 120,
     },
     {
-      path: "/photos/01_landingPage/photos/sponsors/Bild-Labdoo.png",
+      path: "/photos/01_landingPage/sponsors/Bild_Labdoo.png",
       alt: "Labdoo",
       width: 140,
       height: 90,
@@ -38,10 +38,7 @@ const Sponsors: React.FC = () => {
   ];
 
   return (
-    <div
-      className="flex flex-col justify-center items-center text-grayBodtText px-2 pt-8 pb-32 md:px-0 mt-10 mb-10"
-      style={{ backgroundColor: "#f2f3f7" }}
-    >
+    <div className="flex flex-col justify-center items-center bg-gray-100 text-grayBodtText px-2 pt-8 pb-32 md:px-0 mt-10 mb-10">
       <div>
         <div className="text-center">
           <h2 className="text-display2 font-display pb-9">Sponsors</h2>
@@ -62,13 +59,11 @@ const Sponsors: React.FC = () => {
         {sponsorImages.map((sponsor: Sponsor, index: number) => (
           <div
             key={index}
-            className="w-52 sm:w-32 md:w-40 h-24 sm:h-32 md:h-40 flex items-center 
-            "
+            className="w-52 sm:w-32 md:w-40 h-24 sm:h-32 md:h-40 flex items-center"
           >
             <Image
               src={sponsor.path}
               alt={sponsor.alt}
-              layout="responsive"
               width={sponsor.width}
               height={sponsor.height}
             />

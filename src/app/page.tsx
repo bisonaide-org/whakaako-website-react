@@ -1,6 +1,6 @@
 import Header from "@/components/header/header";
 import NewsUpdatesInsights from "@/components/newsUpdates/newsUpdatesInsights";
-import backgroundImage from "../../public/photos/01_landingPage/photos/header_background.jpg";
+import backgroundImage from "../../public/photos/01_landingPage/Header_Background.jpg";
 import BreakingBarriers from "@/components/landingPage/breakingBarriers";
 import Sponsors from "@/components/landingPage/sponsors";
 import VofVolunteer from "../../src/components/landingPage/vofVolunteer";
