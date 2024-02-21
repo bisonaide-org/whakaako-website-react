@@ -41,14 +41,14 @@ const BreakingBarriers = () => {
       </div>
       <div className="flex flex-col md:flex-row gap-3 ">
         <Image
-          style={{ borderRadius: "20px" }}
+          className="rounded-xl"
           src={image1}
           alt="people attending a lesson"
           width={370}
           height={246}
         />
         <Image
-          style={{ borderRadius: "20px" }}
+          className="rounded-xl"
           src={image2}
           alt="people attending a lesson"
           width={370}

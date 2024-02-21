@@ -50,7 +50,7 @@ const Academy: React.FC = () => {
         courses for young people with restricted access to IT education and
         Jobs . We also instructs on other essential subjects that the world of
         tomorrow requires."
-        playTitle="the Oakyard ACADEMY"
+        playTitle="The Oakyard ACADEMY"
       />
       <Quote
         quote="Education is the passport to the future, for tomorrow belongs to those who prepare for it today."

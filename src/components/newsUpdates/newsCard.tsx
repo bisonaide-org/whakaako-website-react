@@ -31,6 +31,7 @@ const NewsCard = (props: Props) => {
             alt="card image"
             fill
             priority
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
           />
         </div>
         <h3 className="text-xl pt-2">{props.title}</h3>

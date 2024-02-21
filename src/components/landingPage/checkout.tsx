@@ -85,7 +85,6 @@ const CheckOut = () => {
                       alt={`flashGreenIcon ${index + 1}`}
                       width={50}
                       height={50}
-                      objectFit="cover"
                     />
                     <span className="ml-2">{item.text}</span>
                   </Link>
@@ -95,8 +94,6 @@ const CheckOut = () => {
                       alt={`section icon ${index + 1}`}
                       width={item.width}
                       height={item.height}
-                      objectFit="cover"
-                      objectPosition="center"
                     />
                   </div>
                 </div>
