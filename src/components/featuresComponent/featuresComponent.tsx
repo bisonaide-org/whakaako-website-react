@@ -54,7 +54,7 @@ const FeaturesComponent: React.FC<FeaturesProps> = ({
               key={item.heading}
               className="flex flex-col items-center gap-4 md:flex-row md:gap-16 md:items-start"
             >
-              <div>
+              <div className="mt-3 ">
                 <Image
                   src={item.iconPath}
                   alt="section icon"
