@@ -1,5 +1,5 @@
 import Image from "next/image";
-import flashGreenIcon from "../../../public/photos/Shared_Icons/flashGreenIcon.svg";
+import flashGreenIcon from "../../../public/photos/Shared_Icons/1_landingPage/arrow_green.svg";
 
 interface Props {
   question: string;

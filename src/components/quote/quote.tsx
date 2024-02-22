@@ -1,5 +1,5 @@
 import Image from "next/image";
-import quoteImage from "../../../public/photos/Shared_Icons/Quote.svg";
+import quoteImage from "../../../public/photos/Shared_Icons/2_job_and_more/Quote.svg";
 
 interface Props {
   quote: string;
