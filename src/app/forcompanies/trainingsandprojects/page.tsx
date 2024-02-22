@@ -1,9 +1,9 @@
 import Header from "@/components/header/header";
-import headerBackground from "../../../../public/photos/03_ForCompanies/TrainingsAndProjects/header_background.jpg";
+import headerBackground from "../../../../public/photos/07_TrainingsAndProjects/header_background.jpg";
 import Quote from "@/components/quote/quote";
 import FeaturesComponent from "@/components/featuresComponent/featuresComponent";
 import { FeaturesItem } from "@/components/featuresComponent/types";
-import whatWeOfferBackground from "../../../../public/photos/03_ForCompanies/TrainingsAndProjects/whatWeOfferBackground.jpg";
+import whatWeOfferBackground from "../../../../public/photos/07_TrainingsAndProjects/whatWeOfferBackground.jpg";
 import AskForARemoteAssistantForm from "@/components/forCompaniesPage/askForARemoteAsistantForm";
 import HowItWorks from "@/components/forCompaniesPage/HowItWorks";
 import { howItWorksData } from "@/helper/trainingsAndProjects/howItWorksData";
