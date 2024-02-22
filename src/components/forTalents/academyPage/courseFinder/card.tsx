@@ -1,5 +1,5 @@
 import Image from "next/image";
-import arrowIcon from "../../../../../public/photos/Shared_Icons/arrowIcon.svg";
+import arrowIcon from "../../../../../public/photos/Shared_Icons/1_landingPage/down_arrow_green.svg";
 
 interface Props {
   title: string;
